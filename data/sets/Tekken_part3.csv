@@ -1,0 +1,31 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Dragon's Hammer,Tekken,TK061,061,Common,Attack,High Attack,Punch,1,4,,"When you launch your rival this turn, you may discard a face-down card in your arena for your attacks to do +2 damage this turn."
+Elbow Uppercut,Tekken,TK062,062,Common,Attack,High Attack,Punch,0,2,Throw,"When played while you have no cards in your energy pile, your rival's next attack this turn does -2 damage."
+Ground Zero,Tekken,TK063,063,Common,Attack,High Attack,Throw,0,2,Punch,"Your rival's next attack this turn does +10 damage and gains, ""If blocked, Battle ends."""
+Hammer Driver,Tekken,TK064,064,Common,Attack,High Attack,Punch,0,2,Punch,"While in your energy pile, your punches gain ""Launcher""."
+Hammer Punch,Tekken,TK065,065,Common,Attack,High Attack,Punch,1,4,Low Attack,"Knock Down-- If your rival has 2 or fewer cards in his hand, he cannot block this attack."
+Headhunter,Tekken,TK066,066,Common,Attack,High Attack,Punch,1,4,Throw,"When played while your rival is launched and while you have only throws and punches in your energy pile, this attack does +6 damage."
+Impaling Knee,Tekken,TK067,067,Common,Attack,High Attack,Kick,0,2,High Attack,Launcher-- You can only play this attack while you have a kick in your energy pile.
+Jaguar Lariat,Tekken,TK068,068,Common,Attack,High Attack,Slam,0,2,Throw,"Your next throw this turn does +4 damage and gains, ""If blocked, your rival may draw 2 cards."""
+Jet Uppercut,Tekken,TK069,069,Common,Attack,High Attack,,,,,Launcher-- Your rival's next attack this turn does -2 damage.
+Knee Strike,Tekken,TK070,070,Common,Attack,High Attack,Kick,1,4,Throw,"Reveal the top 2 cards of your deck. Your rival may choose for you to put the revealed cards in your hand or discard them. If the revealed cards were discarded, your next attack this turn is unblockable."
+Lee Stunner,Tekken,TK071,071,Common,Attack,High Attack,Throw,0,0,Slam,"When played search your deck for 5 throws and remove them. If you do, this attack does +8 damage."
+Mongolian Chop,Tekken,TK072,072,Common,Attack,High Attack,Punch,1,10,Slam,This attack does -8 damage unless you discard 2 slams from your hand.
+Shoulder Bash,Tekken,TK073,073,Common,Attack,High Attack,Slam,1,5,Low Attack,Knock Down-- You may discard a slam from your hand for this attack to do +3 damage. (*) Your rival draws a card.
+Siren's Kiss,Tekken,TK074,074,Common,Attack,High Attack,Kick,1,4,Kick,"When played while your rival is launched, this attack stays in the arena to be played 1 more time and does +2 damage. If it's in the arena when Battle ends, discard it."
+Skull Smash,Tekken,TK075,075,Common,Attack,High Attack,Punch,1,8,Kick,"When played, your rival may choose a card in your energy pile and discard it."
+Step Kick,Tekken,TK076,076,Common,Attack,High Attack,Kick,1,3,Punch,Switch a kick in your hand with a projectile in your energy pile. (*) HIT - Put a kick from your energy pile into your hand.
+Stomach Blow,Tekken,TK077,077,Common,Attack,High Attack,Punch,1,4,Punch,"While in your energy pile, your attacks with ""Jab"" in the title do +2 damage."
+Sword Stab,Tekken,TK078,078,Common,Attack,High Attack,Weapon,0,2,Weapon,"If your rival does not have a weapon in his energy pile, he must play 2 blocks to block this attack."
+Tombstone Pile Driver,Tekken,TK079,079,Common,Attack,High Attack,Throw,2,10,Slam,Your rival must be launched to play this attack.
+Twisted Sister,Tekken,TK080,080,Common,Attack,High Attack,Throw,1,4,Throw,"You may play this card as a high block with a printed cost of 0 when your rival plays an attack with ""Bomb"" in the title."
+Back Handspring,Tekken,TK081,081,Common,Attack,Low Attack,Kick,1,4,Throw,"HIT - While you have 3 or more throws in your energy pile during this combo, your rival's blocks cost +1 energy."
+Blonde Bomb,Tekken,TK082,082,Common,Attack,Low Attack,Punch,0,2,Throw,Your rival's next attack this turn does -1 damage.
+Camel Clutch,Tekken,TK083,083,Common,Attack,Low Attack,Throw,2,15,Kick,You rival must be knocked down to play this attack.
+Dragon Tail,Tekken,TK084,084,Common,Attack,Low Attack,Kick,1,3,Low Attack,Knock Down--
+Foot Stomp,Tekken,TK085,085,Common,Attack,Low Attack,Kick,0,2,Projectile,"Your rival must reveal a projectile from his hand, or your next attack this combo is unblockable."
+Giant Swing,Tekken,TK086,086,Common,Attack,Low Attack,Throw,2,15,Kick,Your rival must be launched to play this attack.
+Handstand KIck,Tekken,TK087,087,Common,Attack,Low Attack,Kick,1,4,High Attack,Launcher-- Your rival cannot block this attack with effects.
+Infernal Destruction,Tekken,TK088,088,Common,Attack,Low Attack,Projectile,1,4,Low Attack,"Knock Down-- When played and your rival has 6 or more cards in hand, your rival cannot draw cards this turn."
+Jumping Power Bomb,Tekken,TK089,089,Common,Attack,Low Attack,Throw,1,8,Slam,Your rival must be knocked down to play this attack.
+Low Cross Cut Saw,Tekken,TK090,090,Common,Attack,Low Attack,Punch,1,4,Low Attack,"Knock Down-- When blocked, this attack stays in the arena to be played 1 more time. If it's in the arena when Battle ends, discard it."
