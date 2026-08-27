@@ -1,0 +1,31 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Hammer Palm Strike,MK Round 1,31_mk,031,Common,Attack,High Attack,Punch,0,1,Projectile,HIT - Each player discards X cards from the top of his deck. X = the number of cards in each player's hand.
+Head Crush,MK Round 1,32_mk,032,Common,Attack,High Attack,Punch,1,3,Weapon,This attack does +X damage to a max of +5. X = each weapon in your energy pile.
+Head Throw,MK Round 1,33_mk,033,Common,Attack,High Attack,Throw,1,4,Weapon,Your rival must have more energy than you to block this attack.
+Heavy Damage,MK Round 1,34_mk,034,Common,Attack,High Attack,Weapon,1,4,Punch,HIT - Put a weapon from your discard pile into your energy pile.
+Killer in White,MK Round 1,35_mk,035,Common,Attack,High Attack,Punch,1,4,Throw,"HIT - Your rival's low attacks in his next action do -1 damage for each punch in your energy pile, to a max of -2."
+King Palms,MK Round 1,36_mk,036,Common,Attack,High Attack,Punch,0,1,Weapon,This attack does +1 damage for each weapon in your energy pile.
+Left Hook,MK Round 1,37_mk,037,Common,Attack,High Attack,Punch,0,2,Projectile,Discard the top card of your rival's deck.
+Monkey Rage,MK Round 1,38_mk,038,Common,Attack,High Attack,Punch,1,4,Punch,
+Natural Instincts,MK Round 1,39_mk,039,Common,Attack,High Attack,Punch,1,4,Punch,
+Neck Crank,MK Round 1,40_mk,040,Common,Attack,High Attack,Throw,1,4,Projectile,"If your rival has more cards in his removed pile than his discard pile, this attack is unblockable."
+Nose Breaker,MK Round 1,41_mk,041,Common,Attack,High Attack,Punch,0,2,Punch,
+On the Edge,MK Round 1,42_mk,042,Common,Attack,High Attack,Weapon,1,4,Punch,This attack does +1 damage for each face-down card in the arena to a max of X. X = the number of punches in your energy pile.
+Out Prioritized,MK Round 1,43_mk,043,Common,Attack,High Attack,Punch,1,4,Kick,HIT - You may put the next attack played in this combo on top of your deck instead of your energy pile or removed pile.
+Power Clash,MK Round 1,44_mk,044,Common,Attack,High Attack,Punch,1,4,Projectile,"If this attack linked from an attack that hit, discard the top 3 cards of your rival's deck."
+Rocky Road,MK Round 1,45_mk,045,Common,Attack,High Attack,Punch,1,4,Weapon,"Each time a block is damaged by this attack, your rival takes one extra damage."
+Seeker Shot,MK Round 1,46_mk,046,Common,Attack,High Attack,Projectile,1,4,Throw,Your rival must block this attack twice to block it. (*) Scorpion may link any attack from this one.
+Skillful Skinning,MK Round 1,47_mk,047,Common,Attack,High Attack,Weapon,1,4,Throw,Your rival cannot play more than 2 attacks in his next action.
+Sliding Kick,MK Round 1,48_mk,048,Common,Attack,High Attack,Kick,0,2,Weapon,"HIT - If your rival has more cards in his hand than you, your rival discards X cards from his hand. X = the number of weapons in your energy pile to a max of 2."
+Stomach Slaughter,MK Round 1,49_mk,049,Common,Attack,High Attack,Throw,1,4,Weapon,You may put this attack at the bottom of your deck when it finishes to put a card from your discard pile into your energy pile.
+Electric Torpedo,MK Round 1,50_mk,050,Common,Attack,High Attack,Electric,1,4,Weapon,HIT - Set an event from your discard pile if you have 2 or more weapons in your energy pile.
+THE Uppercut,MK Round 1,51_mk,051,Common,Attack,High Attack,Punch,1,4,Throw,HIT - Your rival's first attack in his next action does a max of X damage. X = the damage this attack deals.
+Turning Pole,MK Round 1,52_mk,052,Common,Attack,High Attack,Weapon,1,4,Throw,HIT- Reveal the top 2 cards of your deck and put any weapons found there into your energy pile and discard the rest.
+Whirling Blades,MK Round 1,53_mk,053,Common,Attack,High Attack,Weapon,0,2,Kick,HIT - Your rival keeps -1 cards in his hand during this turn's Discard for each kick in your energy pile.
+Whirling Demon,MK Round 1,54_mk,054,Common,Attack,High Attack,Weapon,1,4,Projectile,HIT - If you have a weapon in your energy pile put a block from your discard pile into your hand.
+Ankle Biter,MK Round 1,55_mk,055,Common,Attack,Low Attack,Bite,0,2,Punch,HIT - Any player with 5 or more energy discards from his energy pile until he has 5 energy.
+Back Kick,MK Round 1,56_mk,056,Common,Attack,Low Attack,Kick,0,2,Weapon,Switch 2 random cards in your rival's hand with the top 2 cards of his deck.
+Chain Combo,MK Round 1,57_mk,057,Common,Attack,Low Attack,Kick,1,4,Punch,HIT - You may put any other remaining attacks in this combo on top of your deck when they finish instead of your energy pile.
+Chin Poker,MK Round 1,58_mk,058,Common,Attack,Low Attack,Weapon,1,4,Kick,HIT - Each player discards a card from his hand.
+Foot Slice,MK Round 1,59_mk,059,Common,Attack,Low Attack,Weapon,0,2,Punch,HIT - The next attack in this combo costs -1 energy.
+Frenzy Slashes,MK Round 1,60_mk,060,Common,Attack,Low Attack,Weapon,0,2,Punch,You may pay 1 energy to have this attack gain any modifiers from the previous attack of this combo.
