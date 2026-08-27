@@ -1,0 +1,56 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Ken,Street Fighter 2,25_SF2,004,Common,Character,,,,,,"You can play low kicks and low projectiles as high kicks and high projectiles and vice versa. (*) When you play a kick or projectile, you may switch a card in your hand with the top card of your deck."
+Ryu,Street Fighter 2,26_SF2,005,Common,Character,,,,,,Your rival discards +1 card from his deck when your other effects discard cards from his deck. (*) Your first projectile each turn costs -1 energy for each punch in your energy pile.
+Blanka,Street Fighter 2,SFr2-01,C1,Common,Character,,,,,,Your electrics deal +2 damage.  (*) Twice per step you may pay +1 energy to change a punch into an electric.
+Chun Li,Street Fighter 2,SFr2-02,C2,Common,Character,,,,,,Kicks you perform can link into kicks.  (*) The 3rd kick you play in each combo gains Launcher.
+Dhalsim,Street Fighter 2,SFr2-03,C3,Common,Character,,,,,,"When your last attack in a combo of 3 or more attacks hits, search your discard pile for a card and place it into your energy pile."
+E. Honda,Street Fighter 2,SFr2-04,C4,Common,Character,,,,,,Your punches and slams deal +2 chipping.  (*) Twice per step when you perform a slam you may draw a block from your discard pile.
+Guile,Street Fighter 2,SFr2-05,C5,Common,Character,,,,,,The first time you end a combo with a projectile each step you may draw a card.  (*) Your projectiles deal +1 damage.
+Zangief,Street Fighter 2,SFr2-06,C6,Common,Character,,,,,,You may discard a card from your hand to block a throw.  (*) Throws you perform that end a combo of 4 or more attacks are unblockable.
+Footsies,Street Fighter 2,SFr2-07,C7,Common,Event,,,2,,,Flip when you attack.  Your 0 and 1 cost attacks are unblockable this action.
+Good Read,Street Fighter 2,SFr2-08,C8,Common,Event,,,2,,,Flip when your rival attacks before you play a block.  Look at the top 3 cards of your deck.  Put 1 of those cards in your hand and the other 2 on the bottom of your deck.  (*) Limit 1 per deck.
+Psycho Power,Street Fighter 2,SFr2-09,C9,Common,Event,,,,,,"STREET FIGHTER ONLY - Flip at the start of Battle.  Draw 3 cards, then place 2 cards from your hand on top of your deck.  (*) Remove this card.  (*) Limit 1 per deck."
+Blanka's Rolling Attack,Street Fighter 2,SFr2-10,C10,Common,Attack,High Attack,Slam,2,10,,Counts as a punch.
+Chun Li's Hyakuretsukyaku,Street Fighter 2,SFr2-11,C11,Common,Attack,High Attack,Kick,1,7,Kick,"If your rival is launched when you play this attack, this attack stays in the arena to be used a 2nd time this step.  If it's in the arena when Battle ends, discard it."
+Chun Li's Senretsukyaku,Street Fighter 2,SFr2-12,C12,Common,Attack,High Attack,Kick,4,18,,This attack does +1 damage for each kick you’ve played this step.
+Chun Li's Spinning Bird Kick,Street Fighter 2,SFr2-13,C13,Common,Attack,High Attack,Kick,2,12,,"If your rival is launched when you play this attack, take 1 card from their energy pile and place it in their discard pile."
+Dhalsim's Yoga Fire,Street Fighter 2,SFr2-14,C14,Common,Attack,High Attack,Projectile,2,8,,HIT - Search your discard pile for a card and place it into your energy pile.
+Dhalsim's Yoga Inferno ,Street Fighter 2,SFr2-15,C15,Common,Attack,High Attack,Projectile,4,18,,HIT - Prevent 4 damage from each of your rival’s attacks this step.
+E. Honda's Hundred Hand Slap,Street Fighter 2,SFr2-16,C16,Common,Attack,High Attack,Punch,1,4,Punch,"This attack stays in the arena to be used a second and third time this step. If it's in the arena when Battle ends, discard it."
+E. Honda's Sumo Headbutt,Street Fighter 2,SFr2-17,C17,Common,Attack,High Attack,Slam,1,8,,You may discard a block from your hand when you perform this attack to have it deal +4 damage.
+E. Honda's Super Killer Head Ram,Street Fighter 2,SFr2-18,C18,Common,Attack,High Attack,Slam,4,18,,You may discard a block from your hand when you perform this attack to have it deal +8 damage.
+Guile's Flash Kick,Street Fighter 2,SFr2-19,C19,Common,Attack,High Attack,Kick,2,12,Projectile,
+Guile's Sonic Boom,Street Fighter 2,SFr2-20,C20,Common,Attack,High Attack,Projectile,1,8,,
+Guile's Sonic Hurricane,Street Fighter 2,SFr2-21,C21,Common,Attack,High Attack,Projectile,4,21,,This attack does +6 chipping.
+Zangief's Banishing Flat,Street Fighter 2,SFr2-22,C22,Common,Attack,High Attack,Punch,1,6,,HIT - Your rival’s projectiles deal 0 damage during their next action.
+Zangief's Final Atomic Buster,Street Fighter 2,SFr2-23,C23,Common,Attack,High Attack,Throw,4,20,,If you have performed at least 3 other throws this step this attack does +5 damage.  (*) HIT - Your rival must pass in their next action this step.
+Zangief's Spinning Piledriver,Street Fighter 2,SFr2-24,C24,Common,Attack,High Attack,Throw,2,14,,HIT - Your rival’s next attack this step costs +1 energy.
+Blanka's Electric Thunder,Street Fighter 2,SFr2-25,C25,Common,Attack,Low Attack,Electric,1,5,Electric,"This attack stays in the arena to be used a 2nd time this step.  If it's in the arena when Battle ends, discard it."
+Blanka's Ground Shave Roll,Street Fighter 2,SFr2-26,C26,Common,Attack,Low Attack,Electric,4,18,,If you have performed 2 other electrics this step this attack deals +6 damage.
+Dhalsim's Yoga Teleport,Street Fighter 2,SFr2-27,C27,Common,Block,High Block,,2,,,End your rival’s action.  (*) If your next attack is a projectile it is unblockable.
+Alex's Air Stampede,Street Fighter 2,SFr2-28,R28,Rare,Attack,High Attack,Kick,2,8,,Your rival's next attack this step does -6 damage.
+Dudley's Machine Gun Blow,Street Fighter 2,SFr2-29,R29,Rare,Attack,High Attack,Punch,2,6,,If you flip an event when you perform this attack it deals +4 damage.
+Gill's Cyber Lariat,Street Fighter 2,SFr2-30,R30,Rare,Attack,High Attack,Slam,3,8,Projectile,
+Hugo's Giant Palm Bomber,Street Fighter 2,SFr2-31,R31,Rare,Attack,High Attack,Punch,2,6,Throw,Your rival’s next attack this step costs +1 energy.
+Ibuki's Kunai,Street Fighter 2,SFr2-32,R32,Rare,Attack,High Attack,Weapon,2,6,,The next time your rival would draw a card this step they discard it instead.
+Ken's Hurricane Kick,Street Fighter 2,SFr2-33,R33,Rare,Attack,High Attack,Projectile,1,6,,You may play this card to block a projectile.  (*) When played as a block you may switch another card in your hand with the top card of your deck instead of paying this card’s energy cost.
+Ryu's Hadoken,Street Fighter 2,SFr2-34,R34,Rare,Attack,High Attack,Projectile,1,4,,Your rival discards the top two cards of their deck. (*) This attack loses its name when in your energy pile.
+Sean's Dragon Smash,Street Fighter 2,SFr2-35,R35,Rare,Attack,High Attack,Punch,2,8,,If your rival has 5 or more energy they cannot gain energy from their next attack this step.
+Twelve's A.X.E.,Street Fighter 2,SFr2-36,R36,Rare,Attack,High Attack,Weapon,2,10,,Set an event from your energy pile.
+Elena's Rhino Horn,Street Fighter 2,SFr2-37,R37,Rare,Attack,Low Attack,Kick,2,6,,Heal 2 from the bottom of your discards.
+Alex's Air Stampede EX,Street Fighter 2,SFr2-38,038,Rare,Attack,High Attack,Kick,2,10,,HIT - Your rival's attacks deal -2 damage this step.
+Blanka's Rolling Attack EX,Street Fighter 2,SFr2-39,039,Rare,Attack,High Attack,Slam,2,10,,Counts as an electric.
+Chun-li's Spinning Bird Kick EX,Street Fighter 2,SFr2-40,040,Rare,Attack,High Attack,Kick,2,12,,HIT - Your Launchers deal +2 damage this step.
+Dhalsim's Yoga Fire EX,Street Fighter 2,SFr2-41,041,Rare,Attack,High Attack,Projectile,2,10,,HIT - Your projectiles cost -2 energy this step.
+Dudley's Machine Gun Blow EX,Street Fighter 2,SFr2-42,042,Rare,Attack,High Attack,Punch,2,8,,When you flip an event this step your rival discards the top 2 cards of their deck.
+E. Honda's Sumo Headbut EX,Street Fighter 2,SFr2-43,043,Rare,Attack,High Attack,Slam,2,8,,You may reveal a block from your hand when you perform this attack to have it deal +4 damage.
+Gill's Cyber Lariat EX,Street Fighter 2,SFr2-44,044,Rare,Attack,High Attack,Slam,2,10,,HIT - Your attacks count as being +1 cost for your effects this step.
+Guile's Flash Kick EX,Street Fighter 2,SFr2-45,045,Rare,Attack,High Attack,Kick,2,12,Projectile,HIT - Search your discard pile for a projectile and draw it.
+Hugo's Giant Palm Bomber EX,Street Fighter 2,SFr2-46,046,Rare,Attack,High Attack,Punch,2,10,,All of your rival’s attacks cost +1 during their next combo.
+Ibuki's Kuna EX,Street Fighter 2,SFr2-47,047,Rare,Attack,High Attack,Projectile,2,8,,HIT - Your rival may not draw cards this step.
+Ken's Hurricane Kick EX,Street Fighter 2,SFr2-48,048,Rare,Attack,High Attack,Kick,2,8,,Switch any number of cards from your hand with cards from the top of your deck.
+Ryu's Hadoken EX,Street Fighter 2,SFr2-49,049,Rare,Attack,High Attack,Projectile,2,8,,Your rival discards the top 4 cards of their deck.
+Sean's Dragon Smash EX,Street Fighter 2,SFr2-50,050,Rare,Attack,High Attack,Punch,2,12,,HIT - If your rival has 5 or more energy they cannot gain energy this step.
+Twelve's A.X.E EX,Street Fighter 2,SFr2-51,051,Rare,Attack,High Attack,Weapon,2,10,,Set any number of events from your energy pile.
+Zangief's Banishing Flat EX,Street Fighter 2,SFr2-52,052,Rare,Attack,High Attack,Punch,2,10,,HIT - Your rival's projectiles deal 0 damage this step.
+Elena's Rhino Horn EX,Street Fighter 2,SFr2-53,053,Rare,Attack,Low Attack,Kick,2,6,,When you Heal this step during a combo double the healing amount.
