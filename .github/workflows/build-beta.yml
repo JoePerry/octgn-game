@@ -1,0 +1,82 @@
+name: Build Epic Battles Beta
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feature/epic-battles-beta
+    paths:
+      - "data/**"
+      - "config/**"
+      - "dist/**"
+      - "tools/**"
+      - ".github/workflows/build-beta.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Prepare independent beta resources
+        run: |
+          mkdir -p dist/Resources
+          cp sets/set1/images/example-card.jpg dist/Resources/placeholder.jpg
+
+      - name: Generate OCTGN set XML
+        run: |
+          rm -rf dist/Sets
+          mkdir -p dist/Sets
+          for csv in data/sets/*.csv; do
+            echo "Building $csv"
+            python tools/build_sets.py "$csv"
+          done
+
+      - name: Validate generated database
+        run: |
+          python - <<'PY'
+          import csv
+          import pathlib
+          import xml.etree.ElementTree as ET
+
+          source_rows = 0
+          for path in pathlib.Path("data/sets").glob("*.csv"):
+              with path.open(encoding="utf-8-sig", newline="") as handle:
+                  source_rows += sum(1 for _ in csv.DictReader(handle))
+
+          xml_cards = 0
+          alternates = 0
+          set_files = list(pathlib.Path("dist/Sets").glob("*/set.xml"))
+          for path in set_files:
+              root = ET.parse(path).getroot()
+              for card in root.findall("./cards/card"):
+                  xml_cards += 1
+                  if card.get("alternate"):
+                      alternates += 1
+
+          gameplay_cards = xml_cards - alternates
+          print("Source gameplay rows:", source_rows)
+          print("Generated set files:", len(set_files))
+          print("Generated gameplay cards:", gameplay_cards)
+          print("Generated alternates:", alternates)
+          if gameplay_cards != source_rows:
+              raise SystemExit("Generated gameplay-card count does not match CSV source rows")
+          PY
+
+      - name: Package OCTGN beta
+        run: |
+          cd dist
+          zip -r ../EpicBattles-Beta.o8g .
+
+      - name: Upload beta package
+        uses: actions/upload-artifact@v4
+        with:
+          name: EpicBattles-Beta
+          path: EpicBattles-Beta.o8g
+          if-no-files-found: error
