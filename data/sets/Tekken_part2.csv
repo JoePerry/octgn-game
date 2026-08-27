@@ -1,0 +1,31 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Ganryu,Tekken,TK031,031,Common,Character,,,,,,"Your throws, slams and attacks with ""Ganryu"" in the title cannot be blocked by effects. (*) Your rival's throws cost +1 energy to play."
+JACK-5,Tekken,TK032,032,Common,Character,,,,,,"When one of your Launchers hits, your next attack in that combo does +2 damage. (*) When you play a low attack in a combo after your previous attack in that combo hits, that attack does +1 damage."
+Julia Chang,Tekken,TK033,033,Common,Character,,,,,,"When you hit with a throw, you may pay 1 energy to knock down your rival. (*) When you do 10 or more damage with a punch, look at your rival's hand and choose a card. Your rival discards that card."
+Kuma,Tekken,TK034,034,Common,Character,,,,,,"When one of your Launchers hits, you may discard a card to draw a card. (*) When one of your Knock Downs hits, your rival discards a card to draw a card."
+Lee Chaolan,Tekken,TK035,035,Common,Character,,,,,,Your attacks that stay in the arena to be played again cannot have their damage lowered or their costs raised. (*) Your weapons may link into kicks and vice versa.
+Wang Jinrei,Tekken,TK036,036,Common,Character,,,,,,"When you chip cards, put them at the bottom of your deck instead of your discard pile. (*) When you flip an event, shuffle the top 4 cards of your discard pile into your deck."
+Yoshimitsu,Tekken,TK037,037,Common,Character,,,,,,"Your weapons that have a printed cost of 0 are unblockable. (*) Your rival must discard a card from his hand before playing a weapon. Otherwise, that attack does 0 damage."
+Betrayal,Tekken,TK038,038,Common,Event,,,1,,,Flip at the start of Set. Take control of one of your rival's events until the end of the turn.
+Break Dancing,Tekken,TK039,039,Common,Event,,,2,,,Flip during Set. Put X cards from your discard pile into your energy pile. X = the number of low kicks in your energy pile to a max of 5.
+Care Free,Tekken,TK040,040,Common,Event,,,1,,,Flip during Set. Shuffle 3 cards from your energy pile into your deck to discard 2 cards in your rival's energy pile.
+Disgusted,Tekken,TK041,041,Common,Event,,,0,,,"Flip at the start of Discard. Your rival discards X cards. X = the number of copies of the card ""Girth"" in your discard pile multiplied by 2."
+Friendship,Tekken,TK042,042,Common,Event,,,0,,,Flip as an action in Battle. You draw 2 cards and your rival draws 3 cards. (*) Your attacks do +1 damage in your next action. (*) Your rival's attacks do +2 damage this turn. (*) Remove this card. (*) Limit 2 per deck.
+I'll See You in Hell,Tekken,TK043,043,Common,Event,,,2,,,Flip when your rival is knocked down from an attack. Your rival discards the top 10 cards of his deck. (*) Your action ends when that attack finishes. (*) Remove after use.
+Legendary Showdown,Tekken,TK044,044,Common,Event,,,0,,,"Flip at the start of Draw. For this turn, you and your rival cannot raise and/or lower the damage and costs of each others cards."
+Oddities,Tekken,TK045,045,Common,Event,,,0,,,Flip as an action in Battle. Your rival's attacks this turn do -2 damage.
+Powerful Fists,Tekken,TK046,046,Common,Event,,,1,,,Flip when one of your punches is blocked. Draw X cards. X = the printed cost of the punch + 1 (*) Remove this card.
+Sisterly Hate,Tekken,TK047,047,Common,Event,,,2,,,"Flip when you play a weapon. That weapon gains ""Knock Down"" and does +X damage. X = the number of weapons in your discard pile to a max of 10."
+Student and Teacher,Tekken,TK048,048,Common,Event,,,1,,,Flip when your rival plays an attack that has the same title as a card in his energy pile. Block that attack. (*) Search your deck for an attack that has the same title as a card in your energy pile.
+The Better Man,Tekken,TK049,049,Common,Event,,,0,,,"Flip as an action in Battle, discard 2 attacks from your hand to shuffle the bottom 10 cards of your discard pile into your deck. (*)Remove this card."
+The Villain of the Story,Tekken,TK050,050,Common,Event,,,1,,,Flip when your rival flips an event. Your rival's next attack this turn costs +2 energy.
+Tragic Reunion,Tekken,TK051,051,Common,Evemt,,,1,,,"Flip at the start of Draw, you cannot draw cards this turn. Search your discard pile for a card and put it in your hand. Remove this card. (*) Limit 1 per deck."
+Abolishing Fist,Tekken,TK052,052,Common,Attack,High Attack,Punch,0,4,Projectile,"Your next attack this action gains ""Knock Down."" (*) HIT - Your attacks this action gain, ""When played while your rival is knocked down, he discards the top 2 cards of his deck."""
+Birds Flock,Tekken,TK053,053,Common,Attack,High Attack,Punch,0,2,Kick,"When played while your rival is launched, you may pay 1 energy to search your deck for a block and put it into your hand."
+Bruce Irvin's Gatling Kicks,Tekken,TK054,054,Common,Attack,High Attack,Kick,1,6,Kick,"HIT - This attack stays in the arena to be played X times this turn. X = the number of kicks in your energy pile to a max of 5. If it's in the arena when Battle ends, discard it."
+Bulldog,Tekken,TK055,055,Common,Attack,High Attack,Throw,1,4,Punch,"If you have lowered the damage on any of your rival's attacks this turn, this attack gains ""Knock Down."""
+Bulldog Bite,Tekken,TK056,056,Common,Attack,High Attack,Kick,1,4,High Attack,"Launcher-- If your next attack is a high throw, your rival is able to play a low block to block it. Only a low block can block that throw."
+Cobra Sword,Tekken,TK057,057,Common,Attack,High Attack,Kick,1,8,Slam,"When played, shuffle your energy pile into your deck."
+Death Valley Bomb,Tekken,TK058,058,Common,Attack,High Attack,Throw,0,4,Throw,
+Double Hammer,Tekken,TK059,059,Common,Attack,High Attack,Punch,1,4,High Attack,"Launcher-- If your rival has 7 or more cards in his hand, this attack is unblockable."
+Dragon's Fire,Tekken,TK060,060,Common,Attack,High Attack,Punch,1,4,High Attack,"Launcher-- If you played a low block in your rival's previous action this turn, this attack does +4 damage."
