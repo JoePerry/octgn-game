@@ -1,0 +1,31 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Back Breaker,Tekken,TK001,001,Common,Attack,High Attack,Throw,0,2,Punch,Your rival's kicks do -1 damage this turn. (*) HIT - Your rival cannot play kicks this turn.
+Blade Kick,Tekken,TK002,002,Common,Attack,High Attack,Kick,0,2,Punch,"When played while you have no cards in your hand, you may reveal the top 3 cards of your deck and put a block from those cards into your hand."
+Median Line Destruction,Tekken,TK003,003,Common,Attack,High Attack,Punch,1,4,Kick,"HIT - This attack stays in the arena to be played 2 more times. If it's in the arena when Battle ends, discard it."
+Rear Cross Punch,Tekken,TK004,004,Common,Attack,High Attack,Punch,0,3,Punch,
+Side Elbow,Tekken,TK005,005,Common,Attack,High Attack,Punch,0,2,Kick,"While you have an attack in your energy pile that has a printed cost of 2 or more, this attack does +4 damage."
+Sidestep Elbow,Tekken,TK006,006,Common,Attack,High Attack,Punch,0,2,Kick,HIT - Choose a block in your discard pile and put it in your hand. Your action ends.
+Spinning Flare Kick,Tekken,TK007,007,Common,Attack,High Attack,Kick,1,4,,"HIT - If you have only punches in your energy pile, you may put a block from your discard pile into your hand."
+Caranguejo Throw,Tekken,TK008,008,Common,Attack,Low Attack,Kick,1,4,Punch,"While this card is in your energy pile when you finish a combo of 3 or more attacks that included a punch and a throw, your rival's attacks in his next action that turn do -2 damage."
+Fist Hammer,Tekken,TK009,009,Common,Attack,Low Attack,Punch,0,2,Throw,Your rival's high attacks do -1 damage during his next action this turn.
+Rock Cleaving Palm,Tekken,TK010,010,Common,Attack,Low Attack,Punch,0,4,High Attack,Knock Down-- You must have a punch in your energy pile to play this attack.
+Palm Block,Tekken,TK011,011,Common,Block,High Block,,0,,,"If this blocks a punch, put the top 2 cards of your discard pile into your energy pile."
+Lunge,Tekken,TK012,012,Common,Block,Low Block,,1,,,"If your rival does not have ""Roll Away"" in his discard pile or energy pile, he discards the top 4 cards of his deck."
+Jin Kazama's Demon's Paw,Tekken,TK013,013,Common,Attack,Low Attack,Punch,2,10,Kick,You may discard a card from your hand for your next attack in this combo to do +4 damage.
+Gravity Brain Buster,Tekken,TK014,014,Common,Attack,High Attack,Throw,0,2,Kick,HIT - Your rival's first attack in his next action goes to the discard pile instead of the energy pile.
+Heel Bazooka,Tekken,TK015,015,Common,Attack,High Attack,Kick,0,2,Throw,HIT - You may pay 1 energy for your rival to put a card from his hand on top of his deck.
+Pulse Blast,Tekken,TK016,016,Common,Attack,High Attack,Kick,0,2,Kick,Your other kicks do +1 damage for this combo.
+Running Jaguar Bomb,Tekken,TK017,017,Common,Attack,High Attack,Throw,0,2,Kick,"When played, discard a card from your hand. (*) When linked from a kick that hit, you may put a kick from your energy pile into your hand for this attack to do +2 damage."
+Skyscraper Kick,Tekken,TK018,018,Common,Attack,High Attack,Kick,1,4,High Attack,"Launcher-- When played, you may choose an event in your discard pile and put it at the bottom of your deck."
+Spinning High Kick,Tekken,TK019,019,Common,Attack,High Attack,,,,,"When played while your rival has no cards in his hand, this attack does +4 damage."
+Wind Slicer,Tekken,TK020,020,Common,Attack,High Attack,Kick,0,2,Kick,"When played while your rival has no cards in his hand, your rival draws 3 cards and skips his next action this turn."
+Shin Crusher,Tekken,TK021,021,Common,Attack,Low Attack,Kick,0,2,Throw,HIT - Your rival's low attacks do -2 damage this turn
+Stomp,Tekken,TK022,022,Common,Attack,Low Attack,Kick,1,4,Kick,"When played while your rival is knocked down, search your deck for a kick that has a printed cost of 0 and put it in you hand."
+Wolf's Tail,Tekken,TK023,023,Common,Attack,Low Attack,Kick,0,2,Low Attack,Knock Down-- HIT - You may pay 1 energy to choose 2 cards in your discard pile and shuffle them into your deck.
+Flip,Tekken,TK024,024,Common,Block,High Block,,0,,,"You may pay 1 energy. If you do, your rival's action ends when this attack finishes."
+Roll Away,Tekken,TK025,025,Common,Block,Low Block,,1,,,"If your rival does not have the card ""Lunge"" in his discard pile or energy pile, he discards 2 cards from his hand."
+Nina Williams' Twisted Mind,Tekken,TK026,026,Common,Block,Low Attack,Kick,1,4,Kick,"HIT - If your rival is knocked down, he discards 1 card from his hand and 2 cards from the top of his deck."
+Bruce Irvin,Tekken,TK027,027,Common,Character,,,,,,"Your attacks do +X damage. X = the number of cards in your energy pile that have ""Knee"" or ""Elbow"" in the title, to a max of 5."
+Bryan Fury,Tekken,TK028,028,Common,Character,,,,,,"Your rival can discard only 1 card from your energy pile per turn. (*) At the start of Battle, you may pay 2 energy to search your discard pile for an attack and put it into your energy pile."
+Christie Monteiro,Tekken,TK029,029,Common,Character,,,,,,"Your rival must discard +1 blocks when discarding blocks to recover. (*) You may change the follow-up of any of your kicks to ""Kick."" (*) When you finish a combo that had 3 or more different attacks that hit, draw 2 cards."
+Craig Marduk,Tekken,TK030,030,Common,Character,,,,,,"Your punches with a printed cost of 2 or more gain the text, ""Hit - Your rival cannot play throws in his next action."" (*) While your rival is launched, the cost of all of your events are 0. (*) When you flip an event during an attack, that attack gains """
