@@ -22,7 +22,7 @@
   <card back="Resources/cardback.jpg" front="Resources/front.png" width="63" height="88" cornerRadius="2">
     <property name="Number" type="String" textKind="Free" hidden="False" ignoreText="False" />
     <property name="Rarity" type="String" textKind="Free" hidden="False" ignoreText="False" />
-    <property name="Type" type="String" textKind="Free" hidden="False" ignoreText="False" />
+    <property name="Card Type" type="String" textKind="Free" hidden="False" ignoreText="False" />
     <property name="Attack" type="String" textKind="Free" hidden="False" ignoreText="False" />
     <property name="Attack Type" type="String" textKind="Free" hidden="False" ignoreText="False" />
     <property name="Cost" type="String" textKind="Free" hidden="False" ignoreText="False" />
