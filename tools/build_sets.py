@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Epic Battles OCTGN set XML from the authoritative CSV.
+"""Generate Epic Battles OCTGN set XML from authoritative beta CSV files.
 
 The CSV contains one gameplay row per card. Imagefile is used only as an
 implementation key and is intentionally NOT emitted as an OCTGN property.
@@ -9,6 +9,9 @@ Artwork convention:
   <Imagefile>.jpg      base artwork
   <Imagefile>-ai.jpg   alternate artwork
   <Imagefile>-ai2.jpg  second alternate, etc.
+
+Alternate identities may also be declared in config/alternate-art.json so the
+OCTGN alternate card GUID remains stable before the binary art is published.
 
 Important OCTGN compatibility note:
   OCTGN reserves the property name "Type", so CSV column "Type" is emitted
@@ -45,7 +48,6 @@ def clean(value):
 
 
 def card_uuid(set_name, number):
-    # Number is the stable gameplay identifier within a set.
     return uuid.uuid5(GAME_ID, "card:{}:{}".format(set_name, number))
 
 
@@ -126,7 +128,6 @@ def read_cards(csv_path, set_ids):
 
 
 def scan_art(images_root):
-    """Return case-insensitive stem -> source path for jpg/jpeg/png artwork."""
     artwork = {}
     if images_root is None or not images_root.exists():
         return artwork
@@ -140,7 +141,34 @@ def scan_art(images_root):
     return artwork
 
 
-def write_set_xml(output_root, set_name, set_guid, cards, artwork):
+def load_declared_alternates(path):
+    by_base = defaultdict(set)
+    if path is None or not path.exists():
+        return by_base
+    data = json.loads(path.read_text(encoding="utf-8"))
+    for item in data.get("alternates", []):
+        base = clean(item.get("baseImagefile")).casefold()
+        alt = clean(item.get("alternateImagefile"))
+        if not base or not alt:
+            raise SystemExit("Invalid alternate-art entry in {}".format(path))
+        match = ALT_RE.match(alt)
+        if not match or match.group("base").casefold() != base:
+            raise SystemExit("Alternate {!r} does not match base {!r}".format(alt, item.get("baseImagefile")))
+        by_base[base].add(alt)
+    return by_base
+
+
+def alternates_for_card(card, artwork, declared_alternates):
+    base_key = card["imagefile"].casefold()
+    stems = set(declared_alternates.get(base_key, set()))
+    for stem in artwork:
+        match = ALT_RE.match(stem)
+        if match and match.group("base").casefold() == base_key:
+            stems.add(stem)
+    return sorted(stems, key=str.casefold)
+
+
+def write_set_xml(output_root, set_name, set_guid, cards, artwork, declared_alternates):
     set_dir = output_root / set_guid
     set_dir.mkdir(parents=True, exist_ok=True)
     root = ET.Element("set", {
@@ -157,14 +185,7 @@ def write_set_xml(output_root, set_name, set_guid, cards, artwork):
         for prop_name, prop_value in card["properties"].items():
             ET.SubElement(base, "property", {"name": prop_name, "value": prop_value})
 
-        base_key = card["imagefile"].casefold()
-        alternates = []
-        for stem in artwork:
-            match = ALT_RE.match(stem)
-            if match and match.group("base").casefold() == base_key:
-                alternates.append(stem)
-
-        for stem in sorted(alternates):
+        for stem in alternates_for_card(card, artwork, declared_alternates):
             alt_guid = str(alternate_uuid(uuid.UUID(card["guid"]), stem))
             ET.SubElement(cards_node, "card", {
                 "id": alt_guid,
@@ -180,6 +201,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("csv", type=Path)
     parser.add_argument("--set-ids", type=Path, default=Path("config/set-ids.json"))
+    parser.add_argument("--alternate-art", type=Path, default=Path("config/alternate-art.json"))
     parser.add_argument("--images-root", type=Path, default=None)
     parser.add_argument("--output", type=Path, default=Path("dist/Sets"))
     args = parser.parse_args()
@@ -187,12 +209,26 @@ def main():
     set_ids = json.loads(args.set_ids.read_text(encoding="utf-8"))
     cards_by_set, warnings = read_cards(args.csv, set_ids)
     artwork = scan_art(args.images_root)
+    declared_alternates = load_declared_alternates(args.alternate_art)
 
     for set_name, cards in cards_by_set.items():
-        write_set_xml(args.output, set_name, set_ids[set_name], cards, artwork)
+        write_set_xml(
+            args.output,
+            set_name,
+            set_ids[set_name],
+            cards,
+            artwork,
+            declared_alternates,
+        )
 
     total = sum(len(cards) for cards in cards_by_set.values())
+    alternate_count = sum(
+        len(alternates_for_card(card, artwork, declared_alternates))
+        for cards in cards_by_set.values()
+        for card in cards
+    )
     print("Generated {} gameplay cards across {} sets.".format(total, len(cards_by_set)))
+    print("Generated {} alternate card identities.".format(alternate_count))
     if artwork:
         print("Scanned {} artwork files for base/alternate image mapping.".format(len(artwork)))
     for warning in warnings:
