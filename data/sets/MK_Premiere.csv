@@ -1,0 +1,86 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Dairou,MK Premiere,MK01,001,Common,Character,,,,,,"You may remove 3 cards in your discard pile at the start of Draw. (*) When you draw a card, you may draw if from the bottom of your discard pile if that card is a weapon. (*) Your punches do +1 damage for each different kamidogu you control."
+Kira,MK Premiere,MK02,002,Common,Character,,,,,,"When your effects discard the last card(s) in your rival's hand, you may play a kamidogu. (*) When you play a kick or weapon, it does +1 damage for each card you have in your hand over your rival's hand."
+Kobra,MK Premiere,MK03,003,Common,Character,,,,,,"When a punch or kick is damaged from your deck, you may switch it with a card in your hand. (*) When you play an attack, you may reveal a copy of it from your hand to have the attack do +4 damage."
+Li Mei,MK Premiere,MK04,004,Common,Character,,,,,,"When you finish a combo that ends with 2 or more consecutive kicks and/or projectiles that hit, you may play a kamidogu. (*) Discard the top 2 cards of your rival's deck when you play or gain control of a kamidogu."
+Mileena,MK Premiere,MK05,005,Common,Character,,,,,,"Your attacks that link into kicks also link into weapons, and vice versa. (*) When you finish a combo, you block all your rival's attacks in his next action that do X damage. X = number of attacks in your combo."
+Scorpion,MK Premiere,MK06,006,Common,Character,,,,,,"When one of your projectiles or weapons hits, discard a rival's card in the arena. (*) When one of your attacks finish, you may discard it from your energy pile to discard an attack in your rival's energy pile with the same trait."
+Shujinko,MK Premiere,MK07,007,Common,Character,,,,,,Your deck may contain cards with any character's title. (*) Your first attack each turn does +X damage. X = the number of Kamidogu you control.
+Obligatory Violence,MK Premiere,MK08,008,Common,Event,,,0,,,Flip when you attack. Your attack does +4 damage. (*) You cannot link off of this attack.
+Vixen Vendetta,MK Premiere,MK09,009,Common,Event,,,0,,,Flip as an action in Battle. Put the top card of your discard pile on top of your deck.
+Arm Snapper,MK Premiere,MK10,010,Common,Attack,High Attack,Throw,0,2,Punch,HIT - Name a block. Your rival cannot play that block during this combo.
+Back Stomp,MK Premiere,MK11,012,Common,Attack,High Attack,Projectile,0,2,Throw,HIT - Your rival's attacks in his next action do -1 damage.
+Axe Throw,MK Premiere,MK12,011,Common,Attack,High Attack,Throw,0,2,Punch,HIT - Name a block. Your rival cannot play that block during this combo.
+Chaos Axe Kick,MK Premiere,MK13,013,Common,Attack,High Attack,Throw,0,2,Kick,"When an attack in this combo puts any card(s) into your deck from its effect, it does +X damage. X = the number of cards it puts into your deck."
+Dairou's Stretch and Slam,MK Premiere,MK14,014,Common,Attack,High Attack,Weapon,4,20,Throw,This attack does +3 damage for each kamidogu you control.
+Eye Gouge,MK Premiere,MK15,015,Common,Attack,High Attack,Weapon,0,2,Throw,HIT - Name an attack trait. Your rival's first attack in his next action cannot have that trait.
+Frankensteiner,MK Premiere,MK16,016,Common,Attack,High Attack,Throw,0,2,Kick,HIT - Rearrange the order of your discard pile.
+Front Flip,MK Premiere,MK17,017,Common,Attack,High Attack,Throw,0,2,Weapon,"HIT - Your rival cannot use ""HIT -"" effects in his next action."
+Hair Kut,MK Premiere,MK18,018,Common,Attack,High Attack,Weapon,0,2,Projectile,"While in your energy pile, your rival cannot play any copy of an attack he has in his energy pile."
+Jawbreaker,MK Premiere,19_mk2,019,Common,Attack,High Attack,,,,,"If any attack in this combo lowers your rival's damage, increase the amount lowered by 1."
+Kenshi's Telekinetic Push,MK Premiere,MK20,020,Common,Attack,High Attack,Projectile,2,10,,When this card is put in your energy pile choose a card in your rival's energy pile that creates an effect while in his energy pile. The chosen card has a blank text box while this card is in your energy pile.
+Kira's Neck Slicer,MK Premiere,MK21,021,Common,Attack,High Attack,Weapon,4,20,,"If your rival has no cards in his hand, this attack does +15 damage."
+Klothes Klipping,MK Premiere,MK22,022,Common,Attack,High Attack,Throw,1,4,Projectile,"HIT - At the start of your rival's next action, he must pay 2 energy or pass."
+Knee Launch,MK Premiere,MK23,023,Common,Attack,High Attack,Throw,0,2,Projectile,The next attack in this combo can link to any trait.
+Knee Popper,MK Premiere,MK24,024,Common,Attack,High Attack,Throw,0,2,Projectile,The costs of this attack and any future attack in this combo cannot be modified.
+Kobra's Windmill Kick,MK Premiere,MK25,025,Common,Attack,High Attack,Kick,2,12,,"While this card is in your energy pile when you play an attack, you may reveal from your hand a copy of the attack you played for it to do +4 damage."
+Li Mei's Flipping Heel Kick,MK Premiere,MK26,026,Common,Attack,High Attack,Kick,2,10,,Gain control of a kamidogu your rival controls.
+Lightning from Above,MK Premiere,MK27,027,Common,Attack,High Attack,Projectile,0,0,,Discard the bottom 2 cards of your rival's deck.
+Mileena's Head Bite,MK Premiere,MK28,028,Common,Attack,High Attack,Bite,4,20,,"If your rival passed in 3 consecutive actions this step, this attack does +15 damage."
+Raiden's Shocking Touch,MK Premiere,MK29,029,Common,Attack,High Attack,Throw,2,8,,HIT - Search your rival's deck for up to 4 cards and discard them. Your rival shuffles his deck.
+Scorpion's Head Rip,MK Premiere,MK30,030,Common,Attack,High Attack,Throw,4,20,,"If you discarded 3 or more cards in your rival's energy pile this step, this attack does +15 damage."
+Sindel's Star Screamer,MK Premiere,MK31,031,Common,Attack,High Attack,Projectile,2,12,,HIT - Choose 2 cards in your rival's discard pile. Your rival discards 2 random cards from his hand and puts the 2 chosen cards into it.
+Shujinko's Flaming Fist,MK Premiere,MK32,032,Common,Attack,High Attack,Punch,2,10,,When your modifiers increase damage to this attack double that increase up to +10.
+Bloodletter,MK Premiere,MK33,033,Common,Attack,Low Attack,Weapon,0,1,Punch,This attack does +1 damage for each card in your rival's hand.
+Crackling Legs Projectile,MK Premiere,MK34,034,Common,Attack,Low Attack,Projectile,0,2,Weapon,HIT - Gain control of a rival's kamidogu.
+Darrius' Target Practice,MK Premiere,MK35,035,Common,Attack,Low Attack,Punch,1,7,Punch,Search a player's deck for a card and discard it. That player shuffles his deck. (*) HIT - Switch a punch in your discard pile with a card in your energy pile.
+Ki War,MK Premiere,MK36,036,Common,Attack,Low Attack,Projectile,0,1,Punch,"If played by Sub-Zero, your rival's next action this step is skipped. (*) HIT - Discard the top card of your rival's deck for each projectile in your energy pile."
+Klean Break,MK Premiere,MK37,037,Common,Attack,Low Attack,Punch,1,0,Weapon,This attack does +4 damage.
+Knife Pinning,MK Premiere,MK38,038,Common,Attack,Low Attack,Projectile,1,4,Kick,HIT - Choose a trait in your rival's energy pile. Your rival's first 2 attacks in his next action cannot have that trait.
+Missile Murder,MK Premiere,MK39,039,Common,Attack,Low Attack,Projectile,0,2,Throw,"When the next attack in this combo hits, put a card from your discard pile into your energy pile."
+Overloaded,MK Premiere,MK40,040,Common,Attack,Low Attack,Projectile,0,2,Punch,HIT - Reveal a random card in your rival's hand. Discard X cards from the top of his deck. X = the revealed card's cost.
+Pinpoint Disarm,MK Premiere,MK41,041,Common,Attack,Low Attack,Projectile,0,2,Kick,HIT - Your rival cannot play weapons this step.
+Skirt Sweep,MK Premiere,MK42,042,Common,Attack,Low Attack,Kick,0,2,Weapon,"Your rival's attacks go to the discard pile instead of the energy pile when they finish this step. Each time he does this, he puts the top card of his deck into his energy pile."
+Staff Trip,MK Premiere,MK43,043,Common,Attack,Low Attack,Weapon,0,2,Throw,"HIT - If your rival has cards in his energy pile, his first attack in his next action cannot be a 0 cost attack."
+Tactical Thunder,MK Premiere,MK44,044,Common,Attack,Low Attack,Electric,0,2,Throw,HIT - Your rival must pay +1 energy to block your next attack in this Combo.
+Toe Krush,MK Premiere,MK45,045,Common,Attack,Low Attack,Weapon,1,4,Kick,Pay any amount of energy up to your total energy. Your rival cannot play attacks in his next action that cost less than or equal to the energy you just paid.
+Tomahawk Chop,MK Premiere,MK46,046,Common,Attack,Low Attack,Weapon,0,2,Punch,"If this is your 5th or higher attack in this combo, this attack does +5 damage."
+Trick Shot,MK Premiere,MK47,047,Common,Attack,Low Attack,Projectile,0,2,Kick,HIT - Put the kick closest to the top of your discard pile on top of your deck.
+Kounterslice,MK Premiere,MK48,048,Common,Block,High Block,,0,,,"If you have a kick in your energy pile, shuffle this card into your deck."
+Krossbar,MK Premiere,MK49,049,Common,Block,High Block,,0,,,"If you have a weapon in your energy pile, put this card into your energy pile."
+Left Sidestep,MK Premiere,MK50,050,Common,Block,High Block,,0,,,"MORTAL KOMBAT ONLY. (*) When this card is damaged from your deck, you may pay 1 energy to put it into your hand."
+Golf Swing,MK Premiere,MK51,051,Common,Block,Low Block,,0,,,"While you have a weapon in your energy pile this step, your rival cannot take control of the kamidogu you control."
+Nimble,MK Premiere,MK52,052,Common,Block,Low Block,,0,,,You may pay 1 energy to put a block from your discard pile on top of your deck.
+Right Sidestep,MK Premiere,MK53,053,Common,Block,Low Block,,0,,,"MORTAL KOMBAT ONLY (*) When this card is damaged from your deck, you may pay 1 energy to put it into your hand."
+Roller,MK Premiere,MK54,054,Common,Block,Low Block,,0,,,"If you have a punch in your energy pile, gain control of a rival's kamidogu."
+Earthrealm,MK Premiere,MK55,055,Common,Kamidogu,,,0,,,Put the top card of your discard pile into your energy pile.
+Netherrealm,MK Premiere,MK56,056,Common,Kamidogu,,,1,,,"While you control this card, your rival discards the top 2 cards of his deck at the start of Battle."
+Orderrealm,MK Premiere,MK57,057,Common,Kamidogu,,,1,,,Put any 3 cards in your discard pile on top of your deck. (*) You may play this kamidogu as an action in battle.
+Kenshi,MK Premiere,MK58,058,Rare,Character,,,,,,"All effects on your rival's attacks are now ""HIT -"" effects. (*) When your rival flips an event, you may remove X weapons or projectiles from your discard pile to blank out its text box. X = the cost of the event +1."
+Raiden,MK Premiere,MK59,059,Rare,Character,,,,,,"When attacking with an electric, you may change it to a throw or projectile for that attack. (*) When you finish a throw or projectile that hit, search your rival's deck for a card and discard it. Your rival shuffles his deck."
+Kontinuing Legacy,MK Premiere,MK60,060,Rare,Event,,,0,,,"Flip when you attack. Put this card into your energy pile. (*) While in your energy pile, your rival's effects cannot discard other cards from your energy pile. (*) Limit 1 per deck."
+Puzzle Kombat,MK Premiere,MK61,061,Rare,Event,,,0,,,Flip at the end of Discard. Your rival discards a card from his hand.
+Toasty,MK Premiere,MK62,062,Rare,Event,,,1,,,"Flip when you attack. This attack gains ""HIT - Your rival discards the top 4 cards of his deck."""
+Baraka's Mutant Blades,MK Premiere,MK63,063,Rare,Attack,High Attack,Weapon,2,2,Weapon,This attack does +8 damage.
+Hotaru's Grasshopper,MK Premiere,MK64,064,Rare,Attack,High Attack,Kick,2,10,,"While in your energy pile, you may discard this card when your rival plays a 0 or 1 cost attack to block that attack."
+Jade's Amazon Power Strike,MK Premiere,MK65,065,Rare,Attack,High Attack,Projectile,1,7,Punch,"While in your energy pile, any of your modifiers to your attacks gain +1. If this card is discarded to pay for ""Jade's Blazing Nitro Kick,"" put this card in your hand."
+Kabal's Raging Flash,MK Premiere,MK66,066,Rare,Attack,High Attack,Slam,2,12,,HIT - Your rival shuffles his deck.
+Kenshi's Telekinetic Rip,MK Premiere,MK67,067,Rare,Attack,High Attack,Projectile,4,20,,"If another effect makes this attack unblockable and it defeats your rival this round, you are the aggressor in the next round of this game, and you start the round with 6 cards instead of 3."
+Kira's Black Dragon Ball,MK Premiere,MK68,068,Rare,Attack,High Attack,Slam,2,10,,HIT - Your rival reveals his hand. Choose and discard a card in his hand.
+Kobra's Heart Rip,MK Premiere,MK69,069,Rare,Attack,High Attack,Punch,4,20,,"Reveal 3 /Kobra's Heart Rip/ cards from your hand. If you do, this attack does +15 damage."
+Li Mei's Aftershock,MK Premiere,MK70,070,Rare,Attack,High Attack,Weapon,4,20,,"HIT - If you control 6 different kamidogu, you win the round."
+Noob Smoke's Dark Assassin,MK Premiere,MK71,071,Rare,Attack,High Attack,Projectile,3,15,,HIT - You may put your hand at the bottom of your deck and draw 3 cards.
+Raiden's Electrify,MK Premiere,MK72,072,Rare,Attack,High Attack,Electric,4,20,,"If your rival has 4 copies of 2 different cards in his discard pile, this attack does +15 damage."
+Scorpion's Bloody Spear,MK Premiere,MK73,073,Rare,Attack,High Attack,Projectile,2,10,,"While in your energy pile, this card has all attack traits. (*) HIT - Your next attack this turn cannot be stopped."
+Shujinko's Master Swordplay,MK Premiere,MK74,074,Rare,Attack,High Attack,Weapon,4,20,,"If this attack is played from the top of your deck with Shujinko's effect, it does +15 damage."
+Ashrah's Heavenly LIght,MK Premiere,MK75,075,Rare,Attack,Low Attack,Projectile,2,10,,"When you play another attack this step, you may switch a card in your hand with a card in your energy pile. (*) HIT - Put a weapon or projectile from your discard pile into your energy pile."
+Bo' Rai Cho's Earthquake,MK Premiere,MK76,076,Rare,Attack,Low Attack,Projectile,2,10,,"While in your energy pile, increase the number of times per attack you can use Bo' Rai Cho's text by +1."
+Dairou's Tombstone Drop,MK Premiere,MK77,077,Rare,Attack,Low Attack,Projectile,2,7,,This attack is unblockable. (*) Rearrange your discard pile.
+Mileena's Soaring Sai,MK Premiere,MK78,078,Rare,Attack,Low Attack,Projectile,2,10,,"While in your energy pile, your rival discards the top card of his deck when you block one of his attacks."
+Sub-Zero's Cold Shoulder,MK Premiere,MK79,079,Rare,Attack,Low Attack,Slam,1,7,,"You may switch a card from your hand with a card in your energy pile that has ""Sub-Zero"" in its text box. (*) HIT - You may choose for the aggressor to not change at the end of the turn."
+Chaosrealm,MK Premiere,MK80,080,Rare,Kamidogu,,,2,,,Your rival discards 2 cards from his hand.
+Edenia,MK Premiere,MK81,081,Rare,Kamidogu,,,2,,,Set up to 2 events from your discard pile.
+Outworld,MK Premiere,MK82,082,Rare,Kamidogu,,,1,,,Draw the top 2 cards of your discard pile. Discard 2 cards from your hand.
+Dragon's Victory,MK Premiere,MK83,083,Ultra Rare,Event,,,0,,,"Flip when you attack. While you control 6 different kamidogu this turn, your attacks do +30 damage and are unblockable. (*) Limit 1 per deck."
+Kollecting Kamidogu,MK Premiere,MK84,084,Ultra Rare,Event,,,0,,,Flip as an action in Battle. Play a kamidogu from your side deck.(*)Limit 1 per deck.
+Back Whack,MK Premiere,MK4,MK4,Promo,Attack,Low Attack,,,,,"HIT - At the start of your rival's next action, he must either discard a card from his hand or pass."
