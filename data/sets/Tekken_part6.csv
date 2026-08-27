@@ -1,0 +1,22 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Paul Phoenix's Phoenix Smasher,Tekken,TK151,151,Rare,Attack,High Attack,Punch,2,5,Low Attack,"Knock Down-- If your rival played an attack this turn, this attack does +10 damage."
+Raven's Death From Above,Tekken,TK152,152,Rare,Attack,High Attack,Kick,0,2,Punch,"When your rival plays a projectile, you may reveal this card from your hand. If you do, your rival's attack is blocked, his action ends, and you must play this card first in your next action. Otherwise, you must pass your next action and discard this card"
+Raven's Orbiting Moon,Tekken,TK153,153,Rare,Attack,High Attack,Throw,2,10,,"When played, you may discard a kick from your hand to search your discard pile for a block."
+Wang Jinrei's Draong Power Punch,Tekken,TK154,154,Rare,Attack,High Attack,Punch,4,20,High Attack,"Launcher-- When played, you may discard up to 5 blocks from your hand. Your rival discards the top 2 cards of his deck for each block you discarded in this way."
+Wang Jinrei's Energy Blast,Tekken,TK155,155,Rare,Attack,High Attack,Punch,1,4,,HIT - Shuffle X blocks from your discard pile into your deck. X = the damage this attack deals.
+Wang Jinrei's Heavy Uppercut,Tekken,TK156,156,Rare,Attack,High Attack,Punch,2,8,High Attack,"Launcher-- Your next high attack this combo gains, ""HIT - Search your deck for 2 blocks."""
+Yoshimistu's Suicide,Tekken,TK157,157,Rare,Attack,High Attack,Weapon,4,30,,Your rival may draw 3 cards. (*) HIT - You lose the round at the end of this action.
+Yoshimistu's Thunder Blade,Tekken,TK158,158,Rare,Attack,High Attack,Weapon,2,8,Weapon,You may play this attack as an electric. (*) This attack does +X damage. X = the number of weapons in your rival's energy pile.
+Bryan Fury's Meteor Smash,Tekken,TK159,159,Rare,Attack,Low Attack,Punch,4,20,,"While in your energy pile when your rival plays a low attack, you may discard 2 cards in your energy pile to block that attack."
+Christie Monteiro's Mirage,Tekken,TK160,160,Rare,Attack,Low Attack,Kick,0,4,High Attack,Launcher
+Ganryu's Sumo Tackle,Tekken,TK161,161,Rare,Attack,Low Attack,Throw,2,10,Slam,"When played while you have the card ""Girth"" in your discard pile, your rival must play an additional low block to block this attack."
+JACK-5's Gun Bomb,Tekken,TK162,162,Rare,Attack,Low Attack,Throw,1,6,,"When played, you may reveal the card ""Metal Skin"" from your hand to have your rival's attacks do -3 damage this turn."
+Julia Chang's Foot Stomp,Tekken,TK163,163,Rare,Attack,Low Attack,Kick,1,9,,Your rival must be knocked down to play this attack.
+Kazuya Mishima's Lightning Screw Uppercut,Tekken,TK164,164,Rare,Attack,Low Attack,Electric,4,28,,This attack does -2 damage for each non-electric used to pay for its cost.
+Paul Phoenix's Hammer of the Gods,Tekken,TK165,165,Rare,Attack,Low Attack,Punch,1,2,,"While your rival is knocked down, this attack does +6 damage and your action ends when this attack finishes."
+Raven's Quicksand,Tekken,TK166,166,Rare,Attack,Low Attack,Kick,2,8,High Attack,Launcher-- This attack does +6 damage while you have 3 or more different kicks in your energy pile.
+Heihachi Mishima,Tekken,TK167,167,Ultra Rare,Character,,,,,,"Your rival's attacks do -X damage. X = your energy minus your rival's energy to a minimum of 0. (*) You may play your attacks as electrics.(*) When you play an electric, your rival discards the top card of his deck."
+Dominated,Tekken,TK168,168,Ultra Rare,Event,,,2,,,Flip during Set. Discard 4 face-down cards in your arena to gain +4 damage to your attacks this turn.
+The Devil Gene,Tekken,TK169,169,Ultra Rare,Event,,,2,,,Your rival cannot play attacks this turn that share the same trait as any of the attacks in his energy pile. (*) Limit 1 per deck.
+Sidestep and Walk,Tekken,TK170,170,Ultra Rare,Block,High Block,,1,,,
+Devil Jin,Tekken,TK171,171,Hidden Rare,Character,,,,,,
