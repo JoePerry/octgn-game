@@ -29,14 +29,43 @@ jobs:
           mkdir -p dist/Resources
           cp sets/set1/images/example-card.jpg dist/Resources/placeholder.jpg
 
+      - name: Combine beta CSV source parts
+        run: |
+          python - <<'PY'
+          import csv
+          import pathlib
+
+          source_files = sorted(pathlib.Path("data/sets").glob("*.csv"))
+          if not source_files:
+              raise SystemExit("No beta CSV source files found")
+
+          rows = []
+          fieldnames = None
+          for path in source_files:
+              with path.open(encoding="utf-8-sig", newline="") as handle:
+                  reader = csv.DictReader(handle)
+                  if fieldnames is None:
+                      fieldnames = reader.fieldnames
+                  elif reader.fieldnames != fieldnames:
+                      raise SystemExit("CSV header mismatch in {}".format(path))
+                  for row in reader:
+                      row["Set"] = (row.get("Set") or "").strip()
+                      rows.append(row)
+
+          pathlib.Path("build").mkdir(exist_ok=True)
+          with pathlib.Path("build/EpicBattlesCards.csv").open("w", encoding="utf-8", newline="") as handle:
+              writer = csv.DictWriter(handle, fieldnames=fieldnames)
+              writer.writeheader()
+              writer.writerows(rows)
+
+          print("Combined {} source files into {} gameplay rows.".format(len(source_files), len(rows)))
+          PY
+
       - name: Generate OCTGN set XML
         run: |
           rm -rf dist/Sets
           mkdir -p dist/Sets
-          for csv in data/sets/*.csv; do
-            echo "Building $csv"
-            python tools/build_sets.py "$csv"
-          done
+          python tools/build_sets.py build/EpicBattlesCards.csv
 
       - name: Validate generated database
         run: |
@@ -45,10 +74,8 @@ jobs:
           import pathlib
           import xml.etree.ElementTree as ET
 
-          source_rows = 0
-          for path in pathlib.Path("data/sets").glob("*.csv"):
-              with path.open(encoding="utf-8-sig", newline="") as handle:
-                  source_rows += sum(1 for _ in csv.DictReader(handle))
+          with pathlib.Path("build/EpicBattlesCards.csv").open(encoding="utf-8-sig", newline="") as handle:
+              source_rows = sum(1 for _ in csv.DictReader(handle))
 
           xml_cards = 0
           alternates = 0
