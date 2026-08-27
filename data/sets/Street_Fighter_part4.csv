@@ -1,0 +1,31 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Ibuki's Yoroi Doshi,Street Fighter,97_SF,097,Rare,Attack,High Attack,Throw,4,20,,You may change this attack to a projectile when you play it. (*) HIT - All players discard their hands.
+Ken's Shippu Jinraikyaku,Street Fighter,98_SF,098,Rare,Attack,High Attack,Kick,2,13,,Put this card on top of your deck after it finishes instead of your energy pile.
+Ken's Shoryu Reppa,Street Fighter,99_SF,099,Rare,Attack,High Attack,Punch,4,20,,Discard all of your rival's face-down cards in the arena.
+Ryu's Shin Shoryuken,Street Fighter,100_SF,100,Rare,Attack,High Attack,Punch,4,20,,"HIT - Choose any attacks in your energy pile without ""Ryu"" in the title and use the text on those cards except for their ""HIT -"" texts."
+Sean's Hyper Tornado,Street Fighter,101_SF,101,Rare,Attack,High Attack,Punch,2,10,,HIT - Discard all your rival's energy.
+Super Assault,Street Fighter,102_SF,102,Rare,Attack,High Attack,Projectile,1,4,Weapon,HIT - Switch a card in your discard pile that has a character's name in the title with a card in your hand.
+Twelve's X.C.O.P.Y.,Street Fighter,103_SF,103,Rare,Attack,High Attack,Weapon,0,4,,"Search your rival's deck for any attack and play it at no cost instead of this one. When it finishes, discard it into your rival's discard pile and put this card into your energy pile. Link from your rival's card."
+Crouching Fierce Kick,Street Fighter,104_SF,104,Rare,Attack,Low Attack,Kick,1,4,,"HIT - When you link from this attack, you may pay an extra energy to keep it in the arena to be played 1 extra time. The final time it is played, or when the step ends, remove it."
+Elena's Brave Dance,Street Fighter,105_SF,105,Rare,Attack,Low Attack,Kick,2,10,,Draw the bottom card of your deck. (*) HIT - Draw the bottom card of your deck. (*) Remove this card.
+Kunai Dart,Street Fighter,106_SF,106,Rare,Attack,Low Attack,Projectile,0,2,Weapon,HIT - Discard a card in your rival's energy pile. Put a card in your rival's discard pile into his energy pile.
+Lunging Sweep,Street Fighter,107_SF,107,Rare,Attack,Low Attack,Kick,0,2,Projectile,"If you have more energy than your rival, this attack stays in the arena to be played a second time this step. If the step ends while it is in the arena, discard it."
+Ryu's Shinku Hadoken,Street Fighter,108_SF,108,Rare,Attack,Low Attack,Punch,4,20,,"The first time this card is played, choose 2 attacks in your energy pile without ""Ryu's"" in the title and use the texts on those cards except for ""HIT -"" texts."
+Sean Tackle,Street Fighter,109_SF,109,Rare,Attack,Low Attack,Punch,2,10,,HIT - Discard a card in your rival's energy pile.
+Tag Team,Street Fighter,110_SF,110,Rare,Attack,Low Attack,Punch,0,2,Kick,The first event flipped with this attack is flipped face-down instead of discarded and cannot be flipped again this turn.
+Twelve's X.N.D.L.,Street Fighter,111_SF,111,Rare,Attack,Low Attack,Projectile,2,10,,Set an event from your discard pile for each weapon in your energy pile.
+Amazing Defense,Street Fighter,112_SF,112,Rare,Block,Low Block,,1,,,STREET FIGHTER ONLY. (*) Block all of your rival's low attacks this step. Remove this card. (*) Limit 1 per deck.
+Capcom Team Up,Street Fighter,113_SF,113,Rare,Block,Low Block,,0,,,"STREET FIGHTER ONLY. (*) You may pay 1 energy to have this card stay in the arena to be played a second time this step. Discard this card the second time you play it, or when this step ends."
+Fighting the Darkness,Street Fighter,114_SF,114,Ultra Rare,Event,,,1,,,Flip when you attack. Put an attack with the same attack trait from your discard pile into your hand. Remove this card. (*) Limit 1 per deck.
+Information Gathering,Street Fighter,115_SF,115,Ultra Rare,Event,,,1,,,"STREET FIGHTER ONLY. Flip at the start of Set. Search your deck for 2 events, reveal them and set them. (*) Limit 1 per deck."
+Jab,Street Fighter,116_SF,116,Ultra Rare,Attack,High Attack,Punch,0,2,Kick,"While in your energy pile at the end of Battle, you may put a card with ""Jab"" in the title from your energy pile into your hand."
+Flying Peach,Street Fighter,117_SF,117,Ultra Rare,Attack,Low Attack,Slam,0,2,Kick,HIT - The next kick in this combo can be played out of your energy pile. You cannot discard that attack to pay for itself.
+Evil Ryu,Street Fighter,118_SF,118,Hidden Rare,Character,,,,,,"(Counts as Ryu.) When you attack, you may discard one of your face-down cards in the arena to search your deck for The Dark Hadou and set and flip it immediatelly at no cost."
+Deep Injury,Street Fighter,P1_SF,P1,Promo,Event,,,0,,,"Flip when you attack, all damage and chipping from this attack, and others in this combo are removed."
+Perfect Pose,Street Fighter,P2_SF,P2,Promo,Event,,,0,,,Flip when you attack. You may put that attack on top of your deck after it finishes. Remove this card.
+Interpol Agent,Street Fighter,P3_SF,P3,Promo,Event,,,1,,,Flip when your Rival reveals his hand (*) Choose and discard a card from that hand.
+,Street Fighter,P4_SF,P4,Promo,Event,,,0,,,
+Super Leap,Street Fighter,P5_SF,P5,Promo,Event,,,0,,,"Flip when you attack. Discard an attack from your hand to discard an attack with the same attack trait in you rival's energy pile. If this happens, put a card from his discard pile into his energy pile."
+Gouken,Street Fighter,gp1,GP1,Promo,Character,,,,,,Your attacks do +1 damage. You may hold +1 card in your hand during Discard.
+Evil Reborn,Street Fighter,SFP2,SF2,Promo,Event,,,0,,,Flip at the start of Battle.  Discard a projectile from your hand to stop all effects that modify the costs of your attacks this step.
+Recovery,Street Fighter,SFP3,SF3,Promo,Event,,,0,,,Flip when an effect puts cards from your discard pile into your deck.  Double the amount.  Remove this card.
