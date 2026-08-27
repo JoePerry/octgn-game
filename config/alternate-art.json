@@ -1,0 +1,18 @@
+{
+  "convention": {
+    "suffix": "-ai",
+    "additionalAlternates": "-ai2, -ai3, ...",
+    "meaning": "alternate image for the base Imagefile key"
+  },
+  "alternates": [
+    {
+      "set": "Marvel Vs Capcom",
+      "baseImagefile": "MVC1_05",
+      "alternateImagefile": "MVC1_05-ai",
+      "cardNumber": "5",
+      "cardName": "Morrigan",
+      "baseCardGuid": "7bff2d8f-222e-5668-83dd-465e9c980207",
+      "alternateCardGuid": "30335644-991c-534c-a9b7-39b57e6e1983"
+    }
+  ]
+}
