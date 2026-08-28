@@ -1,0 +1,33 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Gloves of Steel,Street Fighter,33_SF,033,Common,Attack,High Attack,Punch,1,4,Projectile,"If played by Dudley or Balrog, punches can link from this attack. (*) HIT - Discard the top card of your rival's deck for each of your face-down cards in the arena, to a max of 3."
+Grab and Throw,Street Fighter,34_SF,034,Common,Attack,High Attack,Throw,1,4,Projectile,Your rival must discard one of his face-down cards in the arena before he can block this attack.
+Handstand Whip,Street Fighter,35_SF,035,Common,Attack,High Attack,Kick,0,2,Projectile,HIT - You may put the projectile closest to the top of your discard pile on top of your deck.
+Head Crunch,Street Fighter,36_SF,036,Common,Attack,High Attack,Punch,0,3,Kick,
+Head Kick,Street Fighter,37_SF,037,Common,Attack,High Attack,Kick,0,2,Weapon,"If played in a combo that included a weapon attack, your rival puts a card from his hand on top of his deck."
+Hurricane Kicks,Street Fighter,38_SF,038,Common,Attack,High Attack,Kick,1,4,Throw,HIT - Put the bottom 3 cards of your discard pile at the bottom of your deck.
+Inside Jab,Street Fighter,39_SF,039,Common,Attack,High Attack,Punch,0,2,Kick,HIT - Your next attack in this combo does +2 damage.
+Jump Kick,Street Fighter,40_SF,040,Common,Attack,High Attack,Kick,0,2,Punch,"If played as the 3rd or higher attack in a combo, discard the top 2 cards of your rival's deck."
+Jumping Punch,Street Fighter,41_SF,041,Common,Attack,High Attack,Punch,0,2,Projectile,"When your rival blocks this attack and he has 2 or less energy, he discards the top 2 cards of his deck."
+Ki Charge,Street Fighter,42_SF,042,Common,Attack,High Attack,Punch,1,5,Punch,"If played by Ryu, this attack can link as a projectile and may have a projectile follow up."
+Kubi-jime Katagurama,Street Fighter,43_SF,043,Common,Attack,High Attack,Throw,1,4,Punch,HIT - Your rival must pay an extra 2 energy before he can block the next attack in this combo.
+Leaping Kick,Street Fighter,44_SF,044,Common,Attack,High Attack,Kick,0,2,Projectile,"When an event is damaged by an attack in this combo, you may put that attack on top of your deck instead of your energy pile."
+Muay Thai Leap,Street Fighter,45_SF,045,Common,Attack,High Attack,Punch,1,4,Throw,"Your rival's high attacks in his next action do -1 damage for each throw in your energy pile, to a max of -2."
+Multi-Kicks,Street Fighter,46_SF,046,Common,Attack,High Attack,Kick,0,2,Throw,HIT - Put the bottom card of your discard pile at the bottom of your deck.
+Neck Breaker,Street Fighter,47_SF,047,Common,Attack,High Attack,Throw,1,4,Kick,HIT - Put the top 2 cards of your discard pile at the bottom of your deck.
+Overpowered Ki,Street Fighter,48_SF,048,Common,Attack,High Attack,Projectile,1,4,Punch,Discard one of your face-down events in the arena to discard the top 3 cards of your rival's deck.
+Push,Street Fighter,49_SF,049,Common,Attack,High Attack,Punch,0,2,Throw,Lower the damage of your rival's first attack in his next action by the amount of damage this attack deals.
+Quick Strikes,Street Fighter,50_SF,050,Common,Attack,High Attack,Kick,1,4,Throw,"HIT - Anytime you play another attack in this combo, put the bottom card of your discard pile at the bottom of your deck."
+Rapid Wrists,Street Fighter,51_SF,051,Common,Attack,High Attack,Punch,1,4,Kick,HIT - Draw a card if you have a kick in your energy pile.
+Rising Gut Kick,Street Fighter,52_SF,052,Common,Attack,High Attack,Kick,1,4,Weapon,HIT - Your rival takes 3 random cards from his hand and puts them at the bottom of his deck and draws 1 card for each card put there from this effect.
+Strong Throw,Street Fighter,53_SF,053,Common,Attack,High Attack,Throw,1,4,Kick,"HIT - The first time your cards are damaged during your rival's next action, put any damaged throws at the bottom of your deck."
+Strongman Slam,Street Fighter,54_SF,054,Common,Attack,High Attack,Punch,1,4,Weapon,"HIT - If your rival blocks the next attack in this combo, he takes +X chipping. That attack cannot have its damage modified. X = half the attack's damage, rounded up."
+Test of Strength,Street Fighter,55_SF,055,Common,Attack,High Attack,Throw,1,4,Throw,HIT - Put up to 3 throws in your hand at the bottom of your deck and draw the same number of cards.
+Tiger Shot,Street Fighter,56_SF,056,Common,Attack,High Attack,Projectile,0,2,Throw,Your rival must reveal a 2nd block from his hand without playing it before he can block this attack. (*)HIT - Reveal the top 5 cards of your deck. Set any events and put the rest at the bottom of your deck.
+Tiger Uppercut,Street Fighter,57_SF,057,Common,Attack,High Attack,Punch,1,4,Throw,You may play this card to block a high attack.
+Universal Overhead,Street Fighter,58_SF,058,Common,Attack,High Attack,Punch,1,4,Kick,"Discard the top card of your deck. If it can link from this card, play it."
+Violent Knee Drop,Street Fighter,59_SF,059,Common,Attack,High Attack,Kick,1,4,Weapon,"HIT - When you play another attack in this combo, end this step when that attack finishes."
+Backstab,Street Fighter,60_SF,060,Common,Attack,Low Attack,Punch,0,2,Weapon,HIT - Your rival keeps - 2 cards in his hand during this turn's Discard.
+Ballroom Blitz,Street Fighter,61_SF,061,Common,Attack,Low Attack,Kick,1,4,Punch,Damage from this attack and any other attacks in this combo cannot be lowered.
+Body Kick,Street Fighter,62_SF,062,Common,Attack,Low Attack,Kick,0,2,Throw,"HIT - If linked from a throw, put 3 throws from your discard pile at the bottom of your deck."
+Close Knee,Street Fighter,63_SF,063,Common,Attack,Low Attack,Kick,0,2,Weapon,"If you have exactly 2 energy, this attack does +3 damage."
+Hitting the Weak Spot,Street Fighter,64_SF,064,Common,Attack,Low Attack,Kick,1,3,Projectile,HIT - Your rival cannot play high attacks in his next action.

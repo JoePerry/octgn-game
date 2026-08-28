@@ -1,0 +1,90 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Captain Commando,Marvel Vs Capcom,MVC1_01,1,Character,Character,--,--,--,--,--,When you draw your first Event you may set it and draw another card. ♦ Your attacks deal +1 damage for each event you have used this turn.
+Chun-li,Marvel Vs Capcom,MVC1_02,2,Character,Character,--,--,--,--,--,Kicks you perform can link into kicks.   (*)The 3rd kick you play in each combo gains Launcher. (*) Attacks you perform while your opponent is launched deal +1 damage.
+Jin Saotome,Marvel Vs Capcom,MVC1_03,3,Character,Character,--,--,--,--,--,
+Mega Man,Marvel Vs Capcom,MVC1_04,4,Character,Character,--,--,--,--,--,"Mega Man Only (*) HIT – You may return this card to your hand instead of placing it into your energy pile. BLOCKED – If this card was played from your discard pile, remove it from the game."
+Morrigan,Marvel Vs Capcom,MVC1_05,5,Character,Character,--,--,--,--,--,When you finish a combo that hit Heal X. X = the number of hits in that combo. ♦ Your rival discards the top card of their deck when they play a block.
+Ryu,Marvel Vs Capcom,MVC1_06,6,Character,Character,--,--,--,--,--,Your rival discards +1 card from his deck when your other effects discard cards from his deck. (*) Your first projectile each turn costs -1 energy for each punch in your energy pile.
+Strider,Marvel Vs Capcom,MVC1_07,7,Character,Character,--,--,--,--,--,"Attacks you play gain: “BLOCKED – Remove this card
+from the game.” (*) When entering Combat, you may take a 
+0-cost attack from your discard pile and put it into your 
+hand."
+Zangief,Marvel Vs Capcom,MVC1_08,8,Common,Character,--,--,--,--,--,You may discard a card from your hand to block a throw.  (*) Throws you perform that end a combo of 4 or more attacks are unblockable.
+Captain America,Marvel Vs Capcom,MVC1_09,9,Character,,,,,,,During the first draw step of the game you may search your Side Deck for a copy of “The Shield” and draw it. () Once per step you may swap a card from your hand with a copy of “The Shield” in your energy pile.
+Gambit,Marvel Vs Capcom,MVC1_10,10,Character,,,,,,,Twice per turn when you perform a projectile you may remove a card from your side deck to have it deal +5 damage.
+Hulk,Marvel Vs Capcom,MVC1_11,11,Character,,,,,,,You take zero chipping damage. () After you take damage your next attack does +X damage. X = the amount of damage you took to a maximum of 4.
+Spider-Man,Marvel Vs Capcom,MVC1_12,12,Character,,,,,,,"During your draw step, look at the top 5 cards of your deck. Choose 3 to draw and put the rest back in any order. t Blocks you play cost 1 less energy."
+Venom,Marvel Vs Capcom,MVC1_13,13,Character,,,,,,,Each attack you play counts as 2 attacks for card effects.  tThe first attack and first block you play each battle stays in the arena to be used a second time this battle.
+War Machine,Marvel Vs Capcom,MVC1_14,14,Character,,,,,,,"When you play the first projectile of your turn, you may reveal the top card of your deck. You may place it on the top or bottom of your deck. tOnce per turn, you may look at the top card of your deck. If it is a projectile, you may reveal it and place it into your hand."
+Wolverine,Marvel Vs Capcom,MVC1_15,15,Character,,,,,,,Your punches count as weapons. ♦ Your rival skips their next action after you play 2 or more weapons in a combo. ♦ At the end of the Battle step Heal 2.
+Mack the Knife's Spinning Attack ,Marvel Vs Capcom,MVC1_16,16,Common,Event,,,2,,,Captain Commando Only ♦Draw a card for each Captain Commando Only card you have activated this turn.
+Chun Li's Hyakuretsukyaku,Marvel Vs Capcom,MVC1_17,17,Common,Attack,High Attack,Kick,1,4,Kick,"If your rival is launched when you play this attack, this attack stays in the arena to be used a 2nd time this step.  If it's in the arena when Battle ends, discard it."
+Jin Saotome,Marvel Vs Capcom,MVC1_18,18,Common,,,,,,,
+Mega Man's Leaf Shield,Marvel Vs Capcom,MVC1_19,19,Common,Attack,High Attack,Prorjectile,1,4,Projectile,"When your rival plays an attack, you may play this card from your hand as if it were a block. If you do, it blocks any attack.  (*) HIT – You may discard 1 card. If you do, this attack gains +2 damage."
+Morrigan,Marvel Vs Capcom,MVC1_20,20,Common,,,,,,,
+Ryu's Hadoken,Marvel Vs Capcom,MVC1_21,21,Common,Attack,High Attack,Projectile,1,4,,Your rival discards the top two cards of their deck. (*) This attack loses its name when in your energy pile.
+Strider,Marvel Vs Capcom,MVC1_22,22,Common,,,,,,,
+Zangief's Banishing Flat,Marvel Vs Capcom,MVC1_23,23,Common,Attack,High Attack,Punch,1,6,,HIT - Your rival’s projectiles deal 0 damage during their next action.
+Captain America,Marvel Vs Capcom,MVC1_24,24,Common,,,,,,,
+Gambit's dealer choice,Marvel Vs Capcom,MVC1_25,25,Common,,,,,,,
+Hulk,Marvel Vs Capcom,MVC1_26,26,Common,,,,,,,
+Spider-Man's Web Swing Kick,Marvel Vs Capcom,MVC1_27,27,Common,Attack,High Attack,Kick,1,3,High Attack,HIT- Look at the top 2 cards of your rival’s deck. You may choose to put them on the top or bottom of their deck in any order.
+Venom Fang,Marvel Vs Capcom,MVC1_28,28,Common,,,,1,4,,HIT -This attack can link to itself and deals +2 damage.
+War Machine'S Sticky Bombs,Marvel Vs Capcom,MVC1_29,29,Common,Attack,High Attack,Projectile,1,4,Punch,HIT - The bottom projectile card of your discard pile is placed on the top of your deck.
+Wolverine's Tornado Claw,Marvel Vs Capcom,MVC1_30,30,Common,Attak,High Attack,Weapon,2,7,Punch,"HIT - If your rival has played a block this turn, deal 
++3 damage."
+Baby Head’s Knee Rocket,Marvel Vs Capcom,MVC1_31,31,Uncommon,Event,,,0,,,Captain Commando Only ♦Your weapons do +2 damage this turn.
+Chun-li'S Spinning Bird Kick,Marvel Vs Capcom,MVC1_32,32,Uncommon,Attack,High Attack,Kick,2,12,,"If your rival is launched when you play this attack, take 1 card from their energy pile and place it in their discard pile."
+Jin's Saotome Cyclone,Marvel Vs Capcom,MVC1_33,33,Uncommon,Attack,High Attack,Throw,2,8,,LAUNCHER ()The next attack your rival performs this step cost +1 energy.
+Mega Man's Tornado Hold,Marvel Vs Capcom,MVC1_34,34,Uncommon,Attack,High Attack,Projectile,2,6,Kick,"HIT –  If this is the first card in your combo, your rival cannot play blocks during the next link this turn. (*) BLOCKED - You may return 1 “Mega Buster” from your discard pile to your hand."
+Morrigan's Shadow Dash,Marvel Vs Capcom,MVC1_35,35,Uncommon,,,,,,,
+Ryu's Shinku Hadoken,Marvel Vs Capcom,MVC1_36,36,Uncommon,Attack,Low Attack,Punch,4,20,,"The first time this card is played, choose 2 attacks in your energy pile without ""Ryu's"" in the title and use the texts on those cards except for ""HIT -"" texts."
+Strider,Marvel Vs Capcom,MVC1_37,37,Uncommon,,,,,,,
+Zangief's Spinning Piledriver,Marvel Vs Capcom,MVC1_38,38,Common,Attack,High Attack,Throw,2,14,,HIT - Your rival’s next attack this step costs +1 energy.
+Captain America,Marvel Vs Capcom,MVC1_39,39,Uncommon,,,,,,,
+Gambit's 52 Pick Up,Marvel Vs Capcom,MVC1_40,40,Uncommon,Event,--,--,0,--,--,"Set when you enter combat, place up to 6 cards in your discards into your side deck."
+Hulk,Marvel Vs Capcom,MVC1_41,41,Uncommon,,,,,,,
+Spider-Man's Web Ball,Marvel Vs Capcom,MVC1_42,42,Uncommon,Attack,High Attack,Projectile,1,4,High Attack,Your rival cannot LINK attacks during this step.
+Venom Rush,Marvel Vs Capcom,MVC1_43,43,Uncommon,Attack,Low Attack,Slam,2,10,,When you play this card from the arena it deals +6 damage then remove it.
+War Machine's Pulse Cannon,Marvel Vs Capcom,MVC1_44,44,Uncommon,Attack,High Attack,Projectile,4,20,,BLOCKED - Your rival discards a card for every projectile in your energy pile.
+Wolverine's Beserker Barrage,Marvel Vs Capcom,MVC1_45,45,Uncommon,Attack,High Attack,Weapon,1,5,Weapon,HIT - This attack stays in the arena to be played again this turn. HEAL 1. BLOCKED - Put this card into your energy pile instead of your discard pile.
+Ginzu the Ninja's Smoke Bomb,Marvel Vs Capcom,MVC1_46,46,Rare,Event,,,4,,,Captain Commando Only ♦Your next attack this battle costs 0 and does +20 damage. Stops the next attack your rival plays
+Chun Li's Senretsukyaku,Marvel Vs Capcom,MVC1_47,47,Rare,Attack,High Attack,Kick,4,18,,This attack does +1 damage for each kick you’ve played this step.
+Jin,Marvel Vs Capcom,MVC1_48,48,Rare,,,,,,,
+Mega Man's Rush Jet,Marvel Vs Capcom,MVC1_49,49,Rare,Event,,,1,,,Search for a named for a Mega Man Only card. Remove this card.
+Morrigan,Marvel Vs Capcom,MVC1_50,50,Rare,,,,,,,
+Ryu's Shin Shoryuken,Marvel Vs Capcom,MVC1_51,51,Rare,Attack,High Attack,Punch,4,20,,"HIT - Choose any attacks in your energy pile without ""Ryu"" in the title and use the text on those cards except for their ""HIT -"" texts."
+Strider,Marvel Vs Capcom,MVC1_52,52,Rare,,,,,,,
+Zangief's Final Atomic Buster,Marvel Vs Capcom,MVC1_53,53,Uncommon,Attack,High Attack,Throw,4,20,,If you have performed at least 3 other throws this step this attack does +5 damage.  (*) HIT - Your rival must pass in their next action this step.
+Captain America,Marvel Vs Capcom,MVC1_54,54,Rare,,,,,,,
+Gambit's Royal Flush,Marvel Vs Capcom,MVC1_55,55,Rare,,,,,,,
+Hulk’s Gamma Crush,Marvel Vs Capcom,MVC1_56,56,Rare,Attack,High Attack,Punch,4,20,Throw,HIT- Remove your rival’s discard pile.
+Spider-Man's Maximum Spider,Marvel Vs Capcom,MVC1_57,57,Rare,Attack,High Attack,Projectile,4,20,--,"If this is the third attack you play this turn and all three have different types, this attack is unblockable."
+Venom Web,Marvel Vs Capcom,MVC1_58,58,Rare,Attack,High Attack,Slam,4,20,--,You may pay 1 to play this as a high or low block.
+War Machine's War Destroyer,Marvel Vs Capcom,MVC1_59,59,Rare,,,,,,,"HIT -Look at the top 5 cards of your deck, you may reveal any number of projectiles, your opponent discards 1 card for every projectile revealed this way.  Return the cards to the top of your deck in any order."
+Wolverine's Fatal Claw,Marvel Vs Capcom,MVC1_60,60,Rare,Attack,High Attack,Weapon,4,18,--,"HIT – Choose up to 2 cards from your discard pile and shuffle them into your deck. If one is a Weapon card, Heal 2."
+A Hero's Legacy,Marvel Vs Capcom,MVC1_61,61,Common,Event,,,2,,,MARVEL ONLY. () Flip at the start of Battle. Draw a card. () Choose 3 cards in your discards and shuffle them into your deck. () Limit 1 per deck.
+Air Kicks,Marvel Vs Capcom,MVC1_62,62,Common,Attack,High Attack,Kick,1,4,Projectile,
+Back HAND SPRING,Marvel Vs Capcom,MVC1_63,63,Common,Block,,,0,,,
+Berserk Chop,Marvel Vs Capcom,MVC1_64,64,Common,Attack,High Attack,Weapon,0,2,Projectile,HIT - Switch up to 3 weapons in your hand with the same number of cards from your energy pile.
+Blade Kick,Marvel Vs Capcom,MVC1_65,65,Common,Attack,High Attack,Kick,0,2,Punch,
+Bull Rush,Marvel Vs Capcom,MVC1_66,66,Common,Attack,High Attack,Slam,0,2,Punch,"HIT-  If you have already played a slam or throw this turn, put the top card of your deck into your energy pile."
+Clash of Super Heroes,Marvel Vs Capcom,MVC1_67,67,Uncommon,Event,--,--,2,--,--,Flip at the start of Battle. Draw a card.() Your attacks gain “BLOCKED - put this card to your energy pile. () Limit 1 per deck.
+Determined,Marvel Vs Capcom,MVC1_68,68,Ultra Rare,Event,,,,2,,Flip at the start of Battle. Whenever you link an attack it deals +1 damage for every linked attack you have already played this combo.  Limit1 per deck. 
+Drill Claw,Marvel Vs Capcom,MVC1_69,69,Common,Attack,High Attack,Weapon,0,2,Weapon,--
+Driving Haymaker,Marvel Vs Capcom,MVC1_70,70,Common,Attack,High Attack,Punch,0,2,Slam,HIT – Your next attack this combo gets +1 damage.  
+Hand Spring Jump,Marvel Vs Capcom,MVC1_71,71,Common,Block,High Block,--,1,--,--,"MARVEL ONLY () If you have a kick and a punch in your energy pile, draw 2 cards"
+Inside Guard Slip,Marvel Vs Capcom,MVC1_72,72,uncommon,Event,,,0,,, Flip at the end of a combo of 3 or more. Your opponent must pass their next action. If your first attack on your next action has a printed cost of 1 or less it is unblockable.
+Lunge,Marvel Vs Capcom,MVC1_73,73,Common,Block,Low Block,,1,,,"If your rival does not have ""Roll Away"" in his discard pile or energy pile, he discards the top 4 cards of his deck."
+Massive Collateral Damage,Marvel Vs Capcom,MVC1_74,74,Uncommon,Attack,High Attack,Projectile,1,4,,"HIT - Your rival’s kicks do -2 damage this step. (*) If used by Hulk this attack stays in the arena to be used a 2nd time. If the step ends while it is in the arena, discard it."
+Mega Buster,Marvel Vs Capcom,MVC1_75,75,Common,Attack,High Attack,Projectile,,,,"Mega Man Only (*) HIT – Once per turn, you may return this card to your hand instead of placing it into your energy pile. BLOCKED – If this card was played from your discard pile, remove it from the game."
+Roll Away,Marvel Vs Capcom,MVC1_76,76,Common,Block,Low Block,,1,,,"If your rival does not have the card ""Lunge"" in his discard pile or energy pile, he discards 2 cards from his hand."
+Sensational Dodge,Marvel Vs Capcom,MVC1_77,77,Common,Block,High Block,,0,,,"MARVEL ONLY tYou take no damage from the attack, even if it would deal chipping damage."
+Shin Crusher,Marvel Vs Capcom,MVC1_78,78,Common,Attack,Low Attack,Kick,0,2,Throw,HIT - Your rival's low attacks do -2 damage this turn
+Sparing,Marvel Vs Capcom,MVC1_79,79,,,,,,,,
+Soccerball poke,Marvel Vs Capcom,MVC1_80,80,Common,Attack,Low Attack,Projectile,0,2,Kick,"HIT - If linked from a kick, your rival’s attacks cost +1 energy this step."
+Swing Kick,Marvel Vs Capcom,MVC1_81,81,Common,Attack,High Attack,Kick,0,2,Punch,HIT- You may link any attack type to this attack. If used by Spider-Man or  Venom you may return a throw from your energy pile to your hand.
+The Shield,Marvel Vs Capcom,MVC1_82,82,Common,Block,,,,,,Place this card in your energy pile. () You may play this card as a High Projectile attack that deals 4 damage.
+Unphased,Marvel Vs Capcom,MVC1_83,83,Uncommon,Block,High Block,,1,,,MARVEL ONLY. () If this blocks a projectile draw a card.
+Vault Crush,Marvel Vs Capcom,MVC1_84,84,Common,Attack,High Attack,Slam,0,2,Kick,HIT – Your next attack this combo gets +1 damage.
+Web Throw,Marvel Vs Capcom,MVC1_85,85,Common,Attack,High Attack,Throw,0,2,Kick,HIT- You may link any attack type to this attack. If used by Spider-Man or  Venom you may return a punch from your energy pile to your hand.

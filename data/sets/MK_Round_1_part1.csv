@@ -1,0 +1,31 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Ashrah,MK Round 1,1_MK,001,Common,Character,,,,,,"At the start of Set, you may switch any cards from your hand with any weapons or projectiles in your energy pile."
+Baraka,MK Round 1,2_mk,002,Common,Character,,,,,,Your rival discards the top card of his deck when you link from a punch in a combo. (*) Your weapon attacks do +1 damage.
+Bo' Rai Cho,MK Round 1,3_mk,003,Common,Character,,,,,,"Twice while taking damage from an attack, you may put a damaged punch at the bottom of your deck instead of your discard pile if you have more energy than your rival."
+Darrius,MK Round 1,4_mk,004,Common,Character,,,,,,"When you play a punch with no effect or link from a punch with no effect, you may put a card in your discard pile on top of your deck. (*) Your attacks without text cannot be discarded by effects."
+Kabal,MK Round 1,5_mk,005,Common,Character,,,,,,"You may always look at your rival's face-down cards in the arena. (*) When one of your kicks or weapons hits, you may choose a player to put a random card in his hand at the bottom of his deck and draw a card."
+Sindel,MK Round 1,6_mk,006,Common,Character,,,,,,"When you finish a combo with a projectile, you may have any rival put his hand at the bottom of his deck and draw the same number of cards. (*) Your attacks linked from a projectile cost +1 energy to block."
+Sub-Zero,MK Round 1,7_mk,007,Common,Character,,,,,,"When you finish a combo with 2 or more consecutive punches or projectiles that hit, you may end the step."
+Death Trap,MK Round 1,8_mk,008,Common,Event,,,0,,,Flip when you finish an attack that hit. Remove your rival's discard pile.
+Dirty Tricks,MK Round 1,9_mk,009,Common,Event,,,0,,,Flip when you attack. Name a block. Your rival cannot play that block this attack.
+Emissary of the Gods,MK Round 1,10_mk,010,Common,Event,,,1,,,Flip when your rival attacks. Discard an attack from your hand that has damage equal or greater than your rival's attack to block it.
+Fatal Blow,MK Round 1,11_mk,011,Common,Event,,,1,,,Flip after you finish an attack that hit. Discard a card in your rival's energy pile.
+Flawless Victory,MK Round 1,12_mk,012,Common,Event,,,2,,,"Flip when your rival loses a round. If he dealt you no damage in that round, you win the game."
+Hidden Intentions,MK Round 1,13_mk,013,Common,Event,,,0,,,Flip when you attack. You may link a projectile off this attack.
+Lin Kuei Training,MK Round 1,14_mk,014,Common,Event,,,0,,,"MORTAL KOMBAT ONLY. (*) Flip when you attack. Your attack gains ""Discard the top 3 cards of your rival's deck."""
+Power Up,MK Round 1,15_mk,015,Common,Event,,,1,,,Flip when you attack. Put 5 attacks from your discard pile at the bottom of your deck. (*) Limit 1 per deck.
+Trapped in the Korner,MK Round 1,16_mk,016,Common,Event,,,1,,,Flip when your rival has blocked 2 or more consecutive attacks in a combo. Your rival cannot attack this step.
+Unfair Advantage,MK Round 1,17_mk,017,Common,Event,,,1,,,Flip at the end of Discard. Your rival discards a random card from his hand.
+Air Kicks,MK Round 1,18_mk,018,Common,Attack,High Attack,Kick,1,4,Projectile,HIT - You may put the projectile closest to the bottom of your discard pile on top of your deck.
+Arrowed!!!,MK Round 1,19_mk,019,Common,Attack,High Attack,Projectile,1,3,Punch,Discard the top 2 cards of your rival's deck.
+Battle Mastery,MK Round 1,20_mk,020,Common,Attack,High Attack,Weapon,1,4,Kick,Choose up to X rival's face-down cards in the arena. Those cards cannot be flipped this turn. X = the number of weapons in your energy pile.
+Berserk Chop,MK Round 1,21_mk,021,Common,Attack,High Attack,Weapon,0,2,Projectile,HIT - Switch up to 3 weapons in your hand with the same number of cards from your energy pile.
+Bitter Blade,MK Round 1,22_mk,022,Common,Attack,High Attack,Weapon,0,2,Punch,You may set each event damaged by this attack.
+Bludgeon Fist,MK Round 1,23_mk,023,Common,Attack,High Attack,Punch,0,2,Kick,Your other attacks in this combo do +1 damage.
+Chest Clincher,MK Round 1,24_mk,024,Common,Attack,High Attack,Kick,1,4,Projectile,HIT - You may put up to 3 cards in your rival's discard pile on top of his deck.
+Choy Lay Power,MK Round 1,25_mk,025,Common,Attack,High Attack,Weapon,0,2,Projectile,HIT - You may switch any weapons in your hand with the same amount of cards from the top of your deck.
+Dark Fists,MK Round 1,26_mk,026,Common,Attack,High Attack,Punch,0,2,Projectile,"This attack is unblockable and it's damage cannot be modified. (*) If played by Sub-Zero, discard the top card of your rival's deck."
+Deadly Palm,MK Round 1,27_mk,027,Common,Attack,High Attack,Punch,0,2,Throw,HIT - Your rival's attacks in his next action cannot deal more than X damage. X = the number of attacks with the same attack trait in his energy pile after he pays the attack's cost.
+Decapitation!,MK Round 1,28_mk,028,Common,Attack,High Attack,Weapon,1,4,Punch,This attack does +2 damage when linked from an attack that hit.
+Double Handed Uppercut,MK Round 1,29_mk,029,Common,Attack,High Attack,Weapon,1,4,Throw,"HIT - If you have a throw in your energy pile, you may discard a throw from your hand to end this step."
+Flurry of Blows,MK Round 1,30_mk,030,Common,Attack,High Attack,Punch,0,2,Throw,Your rival's first attack in his next action does -1 damage.

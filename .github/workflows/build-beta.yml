@@ -1,0 +1,146 @@
+name: Build Epic Battles Beta
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feature/epic-battles-beta
+    paths:
+      - "data/**"
+      - "config/**"
+      - "dist/**"
+      - "tools/**"
+      - "Epic-Battles-Beta.nuspec"
+      - ".github/workflows/build-beta.yml"
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up NuGet
+        uses: NuGet/setup-nuget@v2
+
+      - name: Prepare independent beta resources
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path dist\Resources | Out-Null
+          Copy-Item sets\set1\images\example-card.jpg dist\Resources\placeholder.jpg -Force
+
+      - name: Combine beta CSV source parts
+        shell: pwsh
+        run: |
+          @'
+          import csv
+          import pathlib
+
+          source_files = sorted(pathlib.Path("data/sets").glob("*.csv"))
+          if not source_files:
+              raise SystemExit("No beta CSV source files found")
+
+          rows = []
+          fieldnames = None
+          for path in source_files:
+              with path.open(encoding="utf-8-sig", newline="") as handle:
+                  reader = csv.DictReader(handle)
+                  if fieldnames is None:
+                      fieldnames = reader.fieldnames
+                  elif reader.fieldnames != fieldnames:
+                      raise SystemExit("CSV header mismatch in {}".format(path))
+                  for row in reader:
+                      row["Set"] = (row.get("Set") or "").strip()
+                      rows.append(row)
+
+          pathlib.Path("build").mkdir(exist_ok=True)
+          with pathlib.Path("build/EpicBattlesCards.csv").open("w", encoding="utf-8", newline="") as handle:
+              writer = csv.DictWriter(handle, fieldnames=fieldnames)
+              writer.writeheader()
+              writer.writerows(rows)
+
+          print("Combined {} source files into {} gameplay rows.".format(len(source_files), len(rows)))
+          '@ | Set-Content build_cards.py -Encoding UTF8
+          python build_cards.py
+
+      - name: Generate OCTGN set XML
+        shell: pwsh
+        run: |
+          Remove-Item dist\Sets -Recurse -Force -ErrorAction SilentlyContinue
+          New-Item -ItemType Directory -Force -Path dist\Sets | Out-Null
+          python tools\build_sets.py build\EpicBattlesCards.csv
+
+      - name: Validate generated database
+        shell: pwsh
+        run: |
+          @'
+          import csv
+          import pathlib
+          import xml.etree.ElementTree as ET
+
+          with pathlib.Path("build/EpicBattlesCards.csv").open(encoding="utf-8-sig", newline="") as handle:
+              source_rows = sum(1 for _ in csv.DictReader(handle))
+
+          xml_cards = 0
+          alternates = 0
+          set_files = list(pathlib.Path("dist/Sets").glob("*/set.xml"))
+          for path in set_files:
+              root = ET.parse(path).getroot()
+              for card in root.findall("./cards/card"):
+                  xml_cards += 1
+                  if card.get("alternate"):
+                      alternates += 1
+
+          gameplay_cards = xml_cards - alternates
+          print("Source gameplay rows:", source_rows)
+          print("Generated set files:", len(set_files))
+          print("Generated gameplay cards:", gameplay_cards)
+          print("Generated alternates:", alternates)
+          if gameplay_cards != source_rows:
+              raise SystemExit("Generated gameplay-card count does not match CSV source rows")
+          if len(set_files) != 7:
+              raise SystemExit("Expected 7 generated set files")
+          '@ | Set-Content validate_cards.py -Encoding UTF8
+          python validate_cards.py
+
+      - name: Build proper OCTGN installer
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path installer-artifact | Out-Null
+          nuget pack Epic-Battles-Beta.nuspec -OutputDirectory installer-artifact -NoPackageAnalysis
+          $package = Get-ChildItem installer-artifact\*.nupkg | Select-Object -First 1
+          Rename-Item $package.FullName 'EpicBattles-Beta-0.1.0.0.o8g'
+
+      - name: Validate OCTGN package structure
+        shell: pwsh
+        run: |
+          Add-Type -AssemblyName System.IO.Compression.FileSystem
+          $installer = Get-ChildItem installer-artifact\*.o8g | Select-Object -First 1
+          $zip = [System.IO.Compression.ZipFile]::OpenRead($installer.FullName)
+          try {
+            $entries = @($zip.Entries.FullName)
+            if ('def/definition.xml' -notin $entries) {
+              throw 'Installer is missing def/definition.xml.'
+            }
+            if (($entries | Where-Object { $_ -match '^def/Sets/.+/set\.xml$' }).Count -ne 7) {
+              throw 'Installer does not contain exactly seven OCTGN set.xml files.'
+            }
+            if ('[Content_Types].xml' -notin $entries) {
+              throw 'Installer is missing NuGet package metadata.'
+            }
+          }
+          finally {
+            $zip.Dispose()
+          }
+
+      - name: Upload beta package
+        uses: actions/upload-artifact@v4
+        with:
+          name: EpicBattles-Beta-Installer
+          path: installer-artifact/EpicBattles-Beta-0.1.0.0.o8g
+          if-no-files-found: error

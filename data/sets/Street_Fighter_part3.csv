@@ -1,0 +1,33 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Palm Thrust,Street Fighter,65_SF,065,Common,Attack,Low Attack,Punch,1,4,Kick,"When your rival takes chipping during this combo, he takes double that amount."
+Gekirou,Street Fighter,66_SF,066,Common,Attack,Low Attack,Kick,1,4,Throw,"HIT - If your next attack in this combo hits, that attack deals no damage. Put X cards from the bottom of your discard pile at the bottom of your deck instead. X = the damage that attack would have dealt."
+Sharp Edge,Street Fighter,67_SF,067,Common,Attack,Low Attack,Weapon,1,4,Kick,"HIT - If your rival has more cards in his hand than you, he discards a card from his hand."
+Shocking!,Street Fighter,68_SF,068,Common,Attack,Low Attack,Electric,1,4,Throw,HIT - The next attack in this combo can be played from the top of your discard pile if it can link from this attack.
+Sinking Elbow,Street Fighter,69_SF,069,Common,Attack,Low Attack,Punch,0,3,Throw,
+Sparring,Street Fighter,70_SF,070,Common,Attack,Low Attack,Punch,0,2,Punch,
+Sumo Tackle,Street Fighter,71_SF,071,Common,Attack,Low Attack,Punch,0,2,Projectile,Discard up to X cards from the top of your deck to discard the same number of cards from the top of your rival's deck. X = the number of punches in your energy pile.
+Zanku Hadouken,Street Fighter,72_SF,072,Common,Attack,Low Attack,Projectile,1,4,Throw,Your rival must pay +1 energy to block this attack for each throw in your energy pile.
+Aerial Stuff,Street Fighter,73_SF,073,Common,Block,High Block,,0,,,"If this blocks a kick, remove up to 3 cards in your rival's discard pile."
+Duck,Street Fighter,74_SF,074,Common,Block,High Block,,0,,,"If you have a kick in your energy pile, put the bottom 2 cards of your discard pile at the bottom of your deck."
+High Impact Stop,Street Fighter,75_SF,075,Common,Block,High Block,,0,,,Your rival's effects cannot discard from your deck or increase damage this step.
+Iron Defense,Street Fighter,76_SF,076,Common,Block,High Block,,0,,,"If this card blocks a throw, the costs of your other cards this step cannot be modified."
+Slide Aside,Street Fighter,77_SF,077,Common,Block,High Block,,0,,,
+Back Bend,Street Fighter,78_SF,078,Common,Block,Low Block,,0,,,"If this blocks a weapon, your attacks chip +2 this turn."
+Projectile Reflection,Street Fighter,79_SF,079,Common,Block,Low Block,,0,,,"If this blocks a projectile, your rival's action ends after this attack finishes."
+Weight Shift,Street Fighter,80_SF,080,Common,Block,Low Block,,0,,,Your throws cost -1 energy this step.
+Elena,Street Fighter,81_SF,081,Rare,Character,,,,,,"Your punches are kicks. (*) Once per attack, when you link from or into a kick during a combo, put the bottom card of your discards at the bottom of your deck."
+Gill,Street Fighter,82_SF,082,Rare,Character,,,,,,"All your attacks that cost 1 or more do +2 damage. (*) When you finish a combo of 3 or more attacks, draw a card."
+Hugo,Street Fighter,83_SF,083,Rare,Character,,,,,,"When a throw is damaged from your deck and you have less than 8 energy, put it into your energy pile. (*) When your first attack in an action is a throw, you may pay X energy to have it do +X damage. (*) Your deck may have 10 extra cards."
+Dark Magic,Street Fighter,84_SF,084,Rare,Event,,,1,,,Flip when you attack. It takes 2 blocks to block this attack. This attack's damage cannot be lowered.
+Elena's Healing,Street Fighter,85_SF,085,Rare,Event,,,4,,,Flip as an action in Battle. Put the bottom 12 cards of your discard pile at the bottom of your deck in any order. Remove this card.
+Gill's Resurrection,Street Fighter,86_SF,086,Rare,Event,,,5,,,Flip when you would lose a round. Shuffle your discard pile into your deck. The round is not over. Remove this card. (*) Limit 1 per deck.
+The Dark Hadou,Street Fighter,87_SF,087,Rare,Event,,,1,,,"RYU, KEN AND AKUMA ONLY. (*) Flip at the start of Battle. Your attacks do +2 damage this step."
+What a Combo!,Street Fighter,88_SF,088,Rare,Event,,,0,,,Flip after you finish a combo. End this step. (*) Limit 1 per deck.
+Alex's Boomerang Raid,Street Fighter,89_SF,089,Rare,Attack,High Attack,Punch,2,10,Throw,Put a throw from your discard pile into your hand. You can only play 1 more attack in this combo.
+Alex's Hyper Bomb,Street Fighter,90_SF,090,Rare,Attack,High Attack,Throw,4,20,,Your rival must pay 3 energy and discard 2 cards from his hand before he can block this attack.
+Dudley's Corkscrew Blow,Street Fighter,91_SF,091,Rare,Attack,High Attack,Punch,2,10,,Set 2 events from your discard pile that do not draw cards.
+Dudley's Rocket Uppercut,Street Fighter,92_SF,092,Rare,Attack,High Attack,Punch,4,20,,HIT - Put up to 10 events from your discard pile on top of your deck in any order.
+Gill's Seraphic Wing,Street Fighter,93_SF,093,Rare,Attack,High Attack,Projectile,5,15,,Discard the top 10 cards of your rival's deck.
+Hugo's Hammer Frenzy,Street Fighter,94_SF,094,Rare,Attack,High Attack,Punch,2,15,,
+Hugo's Megaton Press,Street Fighter,95_SF,095,Rare,Attack,High Attack,Throw,4,25,,HIT - You may search and discard up to 4 cards from your deck as damage and then shuffle your deck.
+Ibuki's Kasumi Suzaku,Street Fighter,96_SF,096,Rare,Attack,High Attack,Projectile,2,10,,HIT - Your rival discards 2 random cards from his hand.

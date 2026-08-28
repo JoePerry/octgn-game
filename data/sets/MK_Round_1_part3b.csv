@@ -1,0 +1,16 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+You're Not Worthy,MK Round 1,76_mk,076,Common,Block,High Block,,0,,,MORTAL KOMBAT ONLY. (*) Discard the top 2 cards of your rival's deck.
+Basic Block,MK Round 1,77_mk,077,Common,Block,Low Block,,0,,,"If you have a throw in your energy pile, your attacks cost +2 energy to block this step."
+Got Your Back,MK Round 1,78_mk,078,Common,Block,Low Block,,0,,,You may pay 1 energy to draw 1 card.
+Small Hop,MK Round 1,79_mk,079,Common,Block,Low Block,,0,,,"If you have a throw in your energy pile, discard a card in your rival's energy pile if it shares the same title with another card in that energy pile."
+Too Fast For You,MK Round 1,80_mk,080,Common,Block,Low Block,,0,,,"If you have a weapon in your energy pile, your rival's attacks cost +1 energy this step."
+Zombies Need Brains,MK Round 1,MK1,MK1,Promo,,,,,,,
+For Battle!,MK Round 1,Mk2,MK2,Promo,,,,,,,
+Hotaru,MK Round 1,81_mk,81,Rare,Character,,,,,,"You may block a high attack by discarding a weapon from your hand. (*) At the end of Battle, shuffle 2 cards from your discard pile into your deck if your rival dealt you no damage that turn."
+Jade,MK Round 1,82_mk,82,Rare,Character,,,,,,Your kicks and punches in a combo do +1 damage for each previous attack in that combo. (*) You may block a projectile by discarding a punch or kick from your hand.
+Noob Smoke,MK Round 1,83_mk,83,Rare,Character,,,,,,"Draw a card at the start of Battle. (*) When you hit with a throw or projectile, name a block card. Your rival cannot play that block for the rest of the combo."
+Catfight,MK Round 1,84_mk,84,Rare,Event,,,1,,,Flip when you attack. Draw 2 cards. Remove this card. (*) Limit 1 per deck.
+Graceful Beauty,MK Round 1,85_mk,85,Rare,Event,,,1,,,Flip at the start of battle. Both players draw 3 cards. Both players may set cards. (*) Limit 1 per deck.
+Insanity,MK Round 1,86_mk,86,Rare,Event,,,1,,,Flip when you attack. Your attack does +10 damage. (*) Limit 1 per deck.
+Quick Reflexes,MK Round 1,87_mk,87,Rare,Event,,,0,,,Flip when your rival flips an event. Pay that event's cost to stop its effect and discard it. (*) Limit 1 per deck.
+Ashrah's Nature's Torpedo,MK Round 1,88_mk,88,Rare,Attack,High Attack,Punch,2,12,,Switch a card in your hand with a card in your energy pile.

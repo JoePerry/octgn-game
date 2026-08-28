@@ -1,0 +1,7 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Hellfire Blast,Tekken Promos,TK-P5,P5,Promo,Attack,High Attack,Projectile,1,4,Low Attack,"Knockdown, HIT - You may remove the top 5 cards of your discard pile to discard a card in your rival's energy pile."
+Sweep Stop,Tekken Promos,TK5,TK5,Promo,Block,Low Block,,4,,,Choose 6 cards in your discard pile and put them in your energy pile.
+Inhuman Strength,Tekken Promos,TK6,TK6,Promo,Event,,,1,,,Flip when you play an attack that costs 1 or more.  That attack does +8 damage.  Remove this card. () Limit 1 per deck.
+Body Blow,Tekken Promos,TK7,TK7,Promo,Attack,High Attack,Punch,0,2,Punch,"If your rival blocks any of your attacks this turn, Battle ends.  () HIT - Your rival skips his next action this turn. "
+Lust for Power,Tekken Promos,TK-P10,TK10,Promo,Event,,,,,,
+Demon Shout,Tekken Promos,TK11,TK11,Promo,Attack,High Attack,Punch,2,4,Projectile,HIT - Your rival discards the top X cards of his deck.  X = the number of projectiles in your energy pile to a max of 10.

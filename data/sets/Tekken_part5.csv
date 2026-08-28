@@ -1,0 +1,31 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Bryan Fury's Mach Breaker,Tekken,TK121,121,Rare,Attack,High Attack,Punch,2,8,,"While in your energy pile, your rival's attacks do -1 damage."
+Bryan Fury's Slash Kick,Tekken,TK122,122,Rare,Attack,High Attack,Kick,2,8,,"While in your energy pile, your attacks do +1 damage."
+Christie Monteiro's Fruit Picker,Tekken,TK123,123,Rare,Attack,High Attack,Kick,0,4,Kick,"HIT - This attack stays in the arena to be played 1 more time. If it's in the Arena when Battle ends, discard it. (*) HIT - Shuffle the top 2 cards of your discard pile into your deck."
+Christie Monteiro's Dos Sole,Tekken,TK124,124,Rare,Attack,High Attack,Kick,1,4,,"When played while your rival is launched, choose 5 cards in your discard pile and shuffle them into your deck and remove your discard pile."
+Craig Marduk's Annihilator Hammer,Tekken,TK125,125,Rare,Attack,High Attack,Punch,1,5,High Attack,"Launcher-- If this attack is blocked, end your action. (*) Damage from your punches cannot be modified this turn."
+Craig Marduk's Death Bringer,Tekken,TK126,126,Rare,Attack,High Attack,Punch,4,22,,"When played while your rival has no throws in his energy pile, this attack is unblockable."
+Craig Marduk's Suplex Bomb,Tekken,TK127,127,Rare,Attack,High Attack,Throw,1,6,,HIT - Battle ends.
+Ganryu's Choke Slam,Tekken,TK128,128,Rare,Attack,High Attack,Slam,2,5,Throw,HIT - Your rival reveals his hand and shuffles any kicks he revealed into his deck.
+Ganryu's Tsuri Dashi,Tekken,TK129,129,Rare,Attack,High Attack,Throw,2,8,,"While in your energy pile, your rival's throws do a max of 4 damage."
+JACK-5's Dark Greeting,Tekken,TK130,130,Rare,Attack,High Attack,Punch,4,20,,HIT - If you have 1 or more energy then your rival put the top 4 cards of your discard pile into your energy pile.
+JACK-5's Rocket Uppercut,Tekken,TK131,131,Rare,Attack,High Attack,Punch,2,10,High Attack,"Launcher-- HIT - For this combo, your other attacks gain ""Put the bottom card of your discard pile into your energy pile."""
+Julia Chang's Heavy Uppercut,Tekken,TK132,132,Rare,Attack,High Attack,Punch,2,10,High Attack,Launcher-- Put the top 3 cards of your discard pile at the bottom of your deck.
+Julia Chang's Palm Explosion,Tekken,TK133,133,Rare,Attack,High Attack,Punch,4,20,,"While in your energy pile, your rival discards a card from his hand when he becomes Knocked Down."
+Kazuya Mishima's Hell Lancer,Tekken,TK134,134,Rare,Attack,High Attack,Kick,2,8,High Attack,"Launcher-- When played, your rival may pay 1 energy. Otherwise, this attack does +4 damage."
+Kazuya Mishima Stone Head,Tekken,TK135,135,Rare,Attack,High Attack,Throw,1,4,Low Attack,Knock Down-- HIT - Choose 2 cards in your rival's energy pile and have him shuffle them into his deck. (*) Your rival draws 2 cards.
+King's Burning Knuckle,Tekken,TK136,136,Rare,Attack,High Attack,Punch,1,4,Throw,HIT - Your rival cannot modify the damage on your throws this turn.
+King's Cobra Clutch,Tekken,TK137,137,Rare,Attack,High Attack,Throw,2,9,Throw,"While in your energy pile, your throws cost -1 to play. (*) Only 1 ""King's Cobra Clutch"" can be active in your energy pile. (*) This effect cannot be copied."
+King's Cobra Twist into Reverse DDT,Tekken,TK138,138,Rare,Attack,High Attack,Throw,2,8,Throw,"HIT - This attack stays in the arena to be played 1 more time. If it's in the arena when Battle ends, discard it. (*) When played from the arena, this attack cost -1 energy and does +2 damage."
+Kuma's Deadly Claw,Tekken,TK139,139,Rare,Attack,High Attack,Weapon,4,20,Weapon,Your rival's attacks do a max of 5 damage this turn.
+Kuma's Demon Uppercut,Tekken,TK140,140,Rare,Attack,High Attack,Punch,1,4,High Attack,"Launcher-- While your rival is launched this turn, his blocks cost +1 energy to play."
+Kuma's Double Claw,Tekken,TK141,141,Rare,Attack,High Attack,Weapon,2,8,Punch,HIT - Your rival's attacks that cost 2 or more energy cost +1 energy.
+Lee Chaolan's Blazing Kick,Tekken,TK142,142,Rare,Attack,High Attack,Kick,1,4,High Attack,Launcher-- Your kicks do +2 damage while your rival is launched this turn.
+Lee Chaolan's Lee Cutter,Tekken,TK143,143,Rare,Attack,High Attack,Kick,2,8,Kick,"While in your energy pile, your attacks that stay in the arena cost -1 energy."
+Lee Chaolan's Silver Cyclone,Tekken,TK144,144,Rare,Attack,High Attack,Kick,4,20,Kick,"HIT - This attack stays in the arena to be played one more time. If it's in the arena when Battle ends, discard it. (*) Remove this card after it is played from the arena."
+Ling Xiaoyu's Raccoon Swing,Tekken,TK145,145,Rare,Attack,High Attack,Kick,0,2,High Attack,Launcher-- This card's text cannot be copied. (*) HIT - Draw 2 cards and discard 2 cards from your hand and remove this card.
+Ling Xiaoyu's Thunder Strike,Tekken,TK146,146,Rare,Attack,High Attack,Punch,1,4,Punch,You may play this attack as an electric. (*) Your other punches do +2 damage this combo. (*) Your other punches do +1 damage this turn.
+Marshall Law's Back Flip,Tekken,TK147,147,Rare,Attack,High Attack,Kick,0,4,High Attack,"Launcher-- HIT - This attack stays in the arena to be played 1 more time. If it's in the arena when Battle ends, discard it."
+Marshall Law's Charge Power Punch,Tekken,TK148,148,Rare,Attack,High Attack,Punch,4,20,,HIT - Your rival cannot draw cards in the next Draw step.
+Marshall Law's Fury Fist Rush,Tekken,TK149,149,Rare,Attack,High Attack,Punch,1,4,,This attack does +1 damage for each punch in your energy pile.
+Paul Phoenix's Burning Fist,Tekken,TK150,150,Rare,Attack,High Attack,Punch,4,20,Low Attack,"Knock Down-- HIT - If you rival has more then 3 cards in his energy pile, then he discards from it until he has 3."

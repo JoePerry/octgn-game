@@ -1,0 +1,33 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Alex,Street Fighter,1_SF,001,Common,Character,,,,,,"Once per turn when you finish a combo with a throw, you may put it in your hand instead of your energy pile. (*) When your effects lower damage to your rival's attacks, increase the amount lowered by 2."
+Dudley,Street Fighter,2_SF,002,Common,Character,,,,,,"You cannot play kicks. (*) When you flip an event because you played a punch, draw a card. (*) Anytime you draw an event, you may reveal it and set it."
+Ibuki,Street Fighter,3_SF,003,Common,Character,,,,,,"When one of your kicks or weapons hits, your rival keeps -1 cards in his hand during this turn's Discard."
+Ken,Street Fighter,4_SF,004,Common,Character,,,,,,"You can play low kicks and low projectiles as high kicks and high projectiles and vice versa. (*) When you play a kick or projectile, you may switch a card in your hand with the top card of your deck."
+Ryu,Street Fighter,5_SF,005,Common,Character,,,,,,Your rival discards +1 card from his deck when your other effects discard cards from his deck. (*) Your first projectile each turn costs -1 energy for each punch in your energy pile.
+Sean,Street Fighter,6_SF,006,Common,Character,,,,,,"When your rival blocks a punch or kick, he must discard a card from his hand or take +2 chipping. (*) While your rival has 5 or more energy, cards that go into his energy pile are discarded instead."
+Twelve,Street Fighter,7_SF,007,Common,Character,,,,,,"When you flip an event, put it in your energy pile after it finishes. (*) At the start of Battle, you may discard an event in your energy pile to put a weapon from your discard pile into your hand."
+Busted,Street Fighter,8_SF,008,Common,Event,,,0,,,Flip when your rival blocks a punch. This attack's chipping gains +X. X = your energy.
+Fond Memories,Street Fighter,9_SF,009,Common,Event,,,1,,,Flip when your rival attacks. Put the top card of your discard pile into your hand. Remove this card. (*) Limit 1 per deck.
+Form of the Mountain,Street Fighter,10_SF,010,Common,Event,,,1,,,Flip at the start of Battle. Your rival's attacks do -1 damage this step.
+Killer Bee Recon,Street Fighter,11_SF,011,Common,Event,,,1,,,STREET FIGHTER ONLY. (*) Flip at the start of Battle. Your rival reveals his hand.
+Looking Good,Street Fighter,12_SF,012,Common,Event,,,1,,,Flip when you pass. Your rival reveals his hand. Choose and discard a card in his hand. (*) Limit 1 per deck.
+Power of a God,Street Fighter,13_SF,013,Common,Event,,,1,,,Flip when you pass. End this step. (*) Limit 1 per deck.
+Sensei's Death,Street Fighter,14_SF,014,Common,Event,,,1,,,Flip when you attack. Discard a rival's face-down card in the arena. (*) Limit 1 per deck.
+Shadaloo Warrior,Street Fighter,15_SF,015,Common,Event,,,0,,,Flip when you attack. You may link a punch from this attack.
+The Master's Teaching,Street Fighter,16_SF,016,Common,Event,,,0,,,Flip at the start of Discard. You may keep +3 cards in your hand this step.
+Thuggin,Street Fighter,17_SF,017,Common,Event,,,1,,,Flip when you attack. Your rival must pay 2 energy before he can block this attack.
+Uncontrollable Rage,Street Fighter,18_SF,018,Common,Event,,,1,,,"Flip when you play a 0 or 1 cost attack. This attack becomes ""high"" and ""low"" and requires your rival to block high and low. He may block it twice."
+Aerial Combo,Street Fighter,19_SF,019,Common,Attack,High Attack,Kick,1,4,Punch,"HIT- This card stays on the table to be played 1 more time this step. Discard this card the 2nd time this attack finishes or when this step ends,"
+Assist,Street Fighter,20_SF,020,Common,Attack,High Attack,Kick,0,2,Projectile,HIT - Look at and rearrange the top 4 cards of your deck. You may look and rearrange an extra card for each projectile in your energy pile.
+Back to Back,Street Fighter,21_SF,021,Common,Attack,High Attack,Kick,0,2,Throw,HIT - Put the top card of your discard pile at the bottom of your deck.
+Backlash,Street Fighter,22_SF,022,Common,Attack,High Attack,Weapon,0,2,Kick,"HIT - If you have a kick in your energy pile, name a card. Your rival reveals his hand and discards any copies of that card in his hand."
+Basketball Poke,Street Fighter,23_SF,023,Common,Attack,High Attack,Projectile,0,2,Weapon,"HIT - If linked from a weapon, your rival's attacks cost +1 energy this step."
+Ceiling Dive,Street Fighter,24_SF,024,Common,Attack,High Attack,Weapon,0,2,Throw,HIT - Your rival's attacks cost +2 energy in his next action.
+Crouching Fierce Punch,Street Fighter,25_SF,025,Common,Attack,High Attack,Punch,1,4,Throw,Your rival's first attack in his next action deals no damage if you have 15 or fewer cards in your deck.
+Crow Kick,Street Fighter,26_SF,026,Common,Attack,High Attack,Kick,1,3,Punch,"HIT - When you link a kick in this combo, discard the top card of your rival's deck."
+Dark Shoryuken,Street Fighter,27_SF,027,Common,Attack,High Attack,Punch,1,4,Projectile,"Pay any amount of energy. For each energy paid, discard the top card of your rival's deck."
+Dragon Elbow,Street Fighter,28_SF,028,Common,Attack,High Attack,Punch,1,4,Projectile,HIT - Each player discards X cards from the top of his deck. X = the number of cards in each player's hand.
+Face Crush,Street Fighter,29_SF,029,Common,Attack,High Attack,Punch,0,2,Weapon,"You may pay 1 energy to have this attack do +X damage. X = the damage the previous attack in this combo dealt, to a max of +4."
+Face Jab,Street Fighter,30_SF,030,Common,Attack,High Attack,Punch,0,2,Throw,HIT - You may pay 1 energy to keep your rival from playing low attacks in his next action.
+Fire Fists,Street Fighter,31_SF,031,Common,Attack,High Attack,Punch,1,4,Kick,"HIT - If your rival blocks your next attack in this combo, you may return it to your hand instead of putting it into your energy pile."
+Forward Fierce,Street Fighter,32_SF,032,Common,Attack,High Attack,Punch,1,5,Weapon,

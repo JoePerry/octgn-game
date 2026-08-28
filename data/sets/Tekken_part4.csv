@@ -1,0 +1,31 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Rasteila,Tekken,TK091,091,Common,Attack,Low Attack,Kick,1,4,Low Attack,"Knock Down-- HIT - Your next throw this turn stays in the arena to be played one more time. If it's in the arena when Battle ends, discard it."
+Samba,Tekken,TK092,092,Common,Attack,High Attack,Kick,1,4,Low Attack,Launcher-- HIT - Your rival's next attack this turn costs +1 energy.
+Snake Edge,Tekken,TK093,093,Common,Attack,Low Attack,Kick,1,4,High Attack,Launcher-- HIT - Your next weapon this turn costs -1 energy.
+Sumo Squash,Tekken,TK094,094,Common,Attack,Low Attack,Slam,1,4,Kick,"When played, you may remove the card ""Girth"" from your discard pile for this attack to do +6 damage."
+Sweeping Cartwheel,Tekken,TK095,095,Common,Attack,Low Attack,Slam,0,2,Kick,"Your next kick this turn gains ""Knock Down."" (*) While your rival is knocked down, your slams do +2 damage this turn."
+Anticipated,Tekken,TK096,096,Common,Block,High Block,,1,,,Your rival chooses a card in his energy pile and discards it.
+Footwork,Tekken,TK097,097,Common,Block,High Block,,0,,,"TEKKEN ONLY. (*)If you have a kick in your energy pile, draw 2 cards."
+Girth,Tekken,TK098,098,Common,Block,High Block,,0,,,"When this blocks a throw, your rival discards 1 card from his energy pile."
+Metal Skin,Tekken,TK099,099,Common,Block,High Block,,0,,,Your rival's next attack this combo does -4 damage.
+Teacher's Knowledge,Tekken,TK100,100,Common,Block,High Block,,0,,,Choose 2 blocks in your discard pile and shuffle them into your deck.
+Too Cute,Tekken,TK101,101,Common,Block,High Block,,0,,,Put the top 2 cards of your discard pile at the bottom of your deck.
+Energy Aura,Tekken,TK102,102,Common,Block,Low Block,,0,,,"This block stays in the arena to be played X more times. X = the number of projectiles in your energy pile when you play this block from your hand. If it's in the arena when Battle ends, discard it."
+Play Dead,Tekken,TK103,103,Common,Block,Low Block,,0,,,"Your rival's next attack in this combo must be a low attack and have a printed cost 1 or more. Otherwise, his action ends when this attack finishes."
+Quick Sit,Tekken,TK104,104,Common,Block,Low Block,,0,,,This block may be played against a high attack if that attack is a Launcher or a Knock Down.
+Jin Kazama,Tekken,TK105,105,Rare,Character,,,,,,"When you search for a block, you may also put the top card of your discard pile into your energy pile. (*) While you have 1 or more energy than your rival, your punches, kicks and lightnings gain ""Launcher."""
+Jin Kazama's Power Stance,Tekken,TK106,106,Rare,Character,,,1,,,"Flip at the start of Battle. Your first attack this Battle gains ""Launcher,"" is unblockable, and does +5 damage. You cannot flip any other events this turn. You cannot copy the effects of any events this turn."
+Jin Kazama's Evil Intent,Tekken,TK107,107,Rare,Character,,Punch,4,16,,This attack is unblockable. (*) This attack does +6 damage while you have a kick and punch in your energy pile.
+Nina Williams,Tekken,TK108,108,Rare,Character,,,,,,"When you chip cards, your rival discards the top 2 cards of his deck. (*) While your rival is knocked down, your kicks do +2 damage."
+Nina Williams' Evil Mist,Tekken,TK109,109,Rare,Character,,,1,,,Flip as an action in Battle. Your rival can only play attacks with a printed cost of 0 or 1 this Battle.
+Nina Williams' Power Charge,Tekken,TK110,110,Rare,Character,,Punch,4,20,,"If this is the first attack you've played this turn, your rival must play 2 blocks to block it. (*) HIT - You cannot play attacks this turn."
+Kazuya Mishima,Tekken,TK111,111,Rare,Character,,,,,,"Your rival can flip only 1 event per step. (*) Once per step when you flip an event, you may discard a card in your rival's energy pile."
+King,Tekken,TK112,112,Rare,Character,,,,,,"Your throws link into throws. (*) At the start of Battle, you may discard 2 cards from your hand to search your deck for a throw and put it in your hand."
+Ling Xiaoyu,Tekken,TK113,113,Rare,Character,,,,,,"When you play a block, put it at the bottom of your deck instead of discarding it. (*) At the start of Discard shuffle the top 2 cards of your discard pile into your deck."
+Marshall Law,Tekken,TK114,114,Rare,Character,,,,,,"When you launch a rival, you may discard a card to draw a card. (*) When you hit with a kick while your rival is launched, you may choose 2 cards in your rival's discard pile and remove them."
+Paul Phoenix,Tekken,TK115,115,Rare,Character,,,,,,"Your punches and kicks do +4 chipping.(*) When one of your Knock Downs hits, you may pay 2 energy to search your discard pile for a punch with a cost of 1 or less."
+Raven,Tekken,TK116,116,Rare,Character,,,,,,"At the start of Battle, you may discard 2 weapons from your energy pile to make your first attack that Battle unstoppable. (*) When you block an attack, you may discard a weapon from your energy pile and put the top 2 cards of your deck into your energy p"
+Ling Xiaoyu's Hypnotist,Tekken,TK117,117,Rare,Event,,,0,,,Flip at the start of Battle. Your low attacks cost -1 energy this step to a minimum of 1. (*) Limit 2 per deck.
+Yoshimitsu's Death Copter,Tekken,TK118,118,Rare,Event,,,3,,,Flip after you chip cards from an attack to discard that attack and end Battle. Remove this card. (*) Limit 1 per deck.
+Bruce Irvin's Ducking Knee Launcher,Tekken,TK119,119,Rare,Attack,High Attack,Kick,2,10,High Attack,Launcher-- HIT - Discard all of your rival's cards in the arena.
+Bruce Irvin's Killing Blow,Tekken,TK120,120,Rare,Attack,High Attack,Punch,4,20,,"While you have 2 or more cards with ""Elbow"" in the title and 2 or more cards with ""Knee"" in the title in your energy pile, this attack is unblockable."

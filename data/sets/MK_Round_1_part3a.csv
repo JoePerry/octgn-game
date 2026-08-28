@@ -1,0 +1,16 @@
+Name,Set,Imagefile,Number,Rarity,Type,Attack,Attack Type,Cost,Damage,Link,Text
+Hell on Earth,MK Round 1,61_mk,061,Common,Attack,Low Attack,Kick,1,4,Weapon,"HIT - If you have a weapon in your energy pile and your rival has more than 3 cards in his hand, he discards down to 3 cards in hand."
+Ice Clone,MK Round 1,62_mk,062,Common,Attack,Low Attack,Projectile,1,4,Punch,"If your rival's first attack in his next action hits, his action ends when that attack finishes. (*) If used by Sub-Zero, discard the top card of your rival's deck."
+Khan's Commander,MK Round 1,63_mk,063,Common,Attack,Low Attack,Kick,0,2,Projectile,You may remove any cards in your discard pile.
+Kneecap Strike,MK Round 1,64_mk,064,Common,Attack,Low Attack,Punch,0,2,Weapon,"If played as the 3rd attack or higher in a combo, this attack does +2 damage."
+Shattering Kick,MK Round 1,65_mk,065,Common,Attack,Low Attack,Kick,1,4,Throw,"HIT - This attack copies the ""HIT - "" text on 1 attack in your energy pile if that attack puts cards into your deck."
+Swinging Sweep,MK Round 1,66_mk,066,Common,Attack,Low Attack,Kick,0,2,Throw,"When any effects from attacks in this combo put cards into your deck, you may increase the amount by +2."
+Take All Comers,MK Round 1,67_mk,067,Common,Attack,Low Attack,Punch,1,1,Weapon,This attack does +1 damage for each card in your hand.
+Telekinetic Trip,MK Round 1,68_mk,068,Common,Attack,Low Attack,Projectile,0,2,Weapon,Your rival must pay +1 energy before he can block this attack.
+The Sounds of Music,MK Round 1,69_mk,069,Common,Attack,Low Attack,Projectile,0,2,Punch,"While in your energy pile, your rival must pay 1 energy before he can block your 0 cost projectiles."
+Thigh Cut,MK Round 1,70_mk,070,Common,Attack,Low Attack,Weapon,0,2,Throw,Your rival's events cost +1 energy this step.
+Tiger Tail Kick,MK Round 1,71_mk,071,Common,Attack,Low Attack,Kick,1,4,Kick,"HIT - The ""HIT -"" text of your next attack in this combo is used when you play that attack instead."
+Under Cut,MK Round 1,72_mk,072,Common,Attack,Low Attack,Weapon,0,2,Kick,"If this attack is blocked, put a card from your discard pile into your energy pile."
+Hat Trick,MK Round 1,73_mk,073,Common,Block,High Block,,0,,,"If you have a projectile in your energy pile, your rival discards a card from his hand."
+Protective Teleport,MK Round 1,74_mk,074,Common,Block,High Block,,0,,,"If you have a punch in your energy pile, you may pay 1 energy to set an event from your discard pile."
+Wrist Reflect,MK Round 1,75_mk,075,Common,Block,High Block,,0,,,"If this blocks a punch, the punch goes to the discard pile after it finishes."
