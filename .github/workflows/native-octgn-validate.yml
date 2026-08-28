@@ -1,0 +1,127 @@
+name: Native OCTGN Validate and Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feature/epic-battles-beta
+    paths:
+      - "data/**"
+      - "config/**"
+      - "dist/**"
+      - "tools/**"
+      - ".github/workflows/native-octgn-validate.yml"
+
+jobs:
+  native-octgn:
+    runs-on: windows-latest
+    steps:
+      - name: Check out Epic Battles
+        uses: actions/checkout@v4
+
+      - name: Check out OCTGN source used by working Ranma build
+        uses: actions/checkout@v4
+        with:
+          repository: octgn/OCTGN
+          ref: 086a8f5a91d413dcce215af6af909cec998d34ce
+          path: octgn-src
+          submodules: recursive
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up NuGet
+        uses: NuGet/setup-nuget@v2
+
+      - name: Set up MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Restore OCTGN dependencies
+        shell: pwsh
+        run: nuget restore octgn-src\OCTGN.sln
+
+      - name: Build OCTGN o8build
+        shell: pwsh
+        run: msbuild octgn-src\octgnFX\o8build\o8build.csproj /m /p:Configuration=Release /p:Platform=AnyCPU
+
+      - name: Prepare beta resources
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path dist\Resources | Out-Null
+          Copy-Item sets\set1\images\example-card.jpg dist\Resources\placeholder.jpg -Force
+
+      - name: Combine source CSV parts
+        shell: pwsh
+        run: |
+          @'
+          import csv
+          import pathlib
+          source_files = sorted(pathlib.Path("data/sets").glob("*.csv"))
+          if not source_files:
+              raise SystemExit("No beta CSV source files found")
+          rows = []
+          fieldnames = None
+          for path in source_files:
+              with path.open(encoding="utf-8-sig", newline="") as handle:
+                  reader = csv.DictReader(handle)
+                  if fieldnames is None:
+                      fieldnames = reader.fieldnames
+                  elif reader.fieldnames != fieldnames:
+                      raise SystemExit("CSV header mismatch in {}".format(path))
+                  for row in reader:
+                      row["Set"] = (row.get("Set") or "").strip()
+                      rows.append(row)
+          pathlib.Path("build").mkdir(exist_ok=True)
+          with pathlib.Path("build/EpicBattlesCards.csv").open("w", encoding="utf-8", newline="") as handle:
+              writer = csv.DictWriter(handle, fieldnames=fieldnames)
+              writer.writeheader()
+              writer.writerows(rows)
+          print("Combined gameplay rows:", len(rows))
+          '@ | Set-Content build_cards.py -Encoding UTF8
+          python build_cards.py
+
+      - name: Generate all OCTGN sets
+        shell: pwsh
+        run: |
+          Remove-Item dist\Sets -Recurse -Force -ErrorAction SilentlyContinue
+          New-Item -ItemType Directory -Force -Path dist\Sets | Out-Null
+          python tools\build_sets.py build\EpicBattlesCards.csv
+
+      - name: Validate with OCTGN's own validator
+        shell: pwsh
+        run: |
+          & .\octgn-src\octgnFX\o8build\bin\Release\o8build.exe -d "$env:GITHUB_WORKSPACE\dist" -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+      - name: Build package with OCTGN's own package builder
+        shell: pwsh
+        run: |
+          & .\octgn-src\octgnFX\o8build\bin\Release\o8build.exe -d "$env:GITHUB_WORKSPACE\dist"
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          $package = Get-ChildItem dist\*.nupkg | Select-Object -First 1
+          if (-not $package) { throw "OCTGN o8build did not create a .nupkg" }
+          New-Item -ItemType Directory -Force -Path native-installer | Out-Null
+          Copy-Item $package.FullName native-installer\EpicBattles-Native-0.1.0.0.o8g
+
+      - name: Verify native package contents
+        shell: pwsh
+        run: |
+          Add-Type -AssemblyName System.IO.Compression.FileSystem
+          $installer = Get-ChildItem native-installer\*.o8g | Select-Object -First 1
+          $zip = [System.IO.Compression.ZipFile]::OpenRead($installer.FullName)
+          try {
+            $entries = @($zip.Entries.FullName)
+            if ('def/definition.xml' -notin $entries) { throw 'Native package missing def/definition.xml' }
+            $setCount = ($entries | Where-Object { $_ -match '^def/Sets/.+/set\.xml$' }).Count
+            if ($setCount -ne 7) { throw "Native package contains $setCount sets, expected 7" }
+          }
+          finally { $zip.Dispose() }
+
+      - name: Upload native-validated installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: EpicBattles-Native-OCTGN-Installer
+          path: native-installer/EpicBattles-Native-0.1.0.0.o8g
+          if-no-files-found: error
